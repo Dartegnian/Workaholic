@@ -123,9 +123,21 @@ p {
     background-attachment: fixed;
     overflow: hidden;
 }
+#vertmenu {
+    background: url(../images/handshake.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#partnerimg {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.36), 0 3px 6px rgba(0,0,0,0.43);
+    transition: all .50s;
+}
+#partnerimg:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.45), 0 10px 10px rgba(0,0,0,0.42);
+}
 div#rightcontain {
     float: right;
-    width: 40%;
+    width: 38%;
     padding: 30px;
     background: rgba(0, 0, 0, 0.6);
 	backdrop-filter: blur(10px);
@@ -168,25 +180,35 @@ div#leftcontain {
     font-size: 40px;
 }
 .vertcontain {
-    width: 700px;
-    overflow-y: hidden;
+    width: 1900px;
+    margin-left: -30px;
+}
+#juan {
     float: left;
+    overflow-y: hidden;
+}
+.verticalmenu {
+    overflow-x: scroll;
+    width: 700px;
+}
+#vertmenu {
+    height: 400px;
+    padding: 40px;
 }
 .vertcontain ul {
-    margin-top: 19px;
+    margin-top: 0px;
+    padding-left: 0px;
 }
 .vertcontain li {
-    height: 310px;
+    height: 370px;
 }
 .vertcontain img {
-    width: 218px;
-}
-.vertcontain h2 {
-    color: white;
+    width: 325px;
 }
 li {
     display: inline-block;
     padding: 0px 40px;
+    padding-left: 0px;
     height: 400px;
 }
 header {

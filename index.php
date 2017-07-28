@@ -107,50 +107,35 @@
 				<p>Since 2016, this team has been helping Asia Pacific College to lessen the spread of computer viruses, and through thorough research and determination they succeeded, as their project continues to this day. Their aim to accomplish their Vision never ceases as they keep on developing and innovating to help the society to become greener and better. One of their greatest achievement is the Cyclicity App, the app has reduced the pollution in the Philippines to at least 60% compared to the other years.</p>
 			</aside>
 		</section>
-		<section class="fullbackground">
-			<div class="vertcontain">
+		<section class="fullbackground" id="vertmenu">
+			<div class="verticalmenu" id="juan">
+				<div class="vertcontain">
 					<ul>
 						<li>
-							<img id="logo" src="files\photos\potato-salad1-218x155.png">
-							<h2>Potato Salad</h2>
-							<button>Add for ₱50</button>
+							<img id="partnerimg" src="assets\images\partner1.jpg">
 						</li>
 						<li>
-							<img id="logo" src="files\photos\Spicy-tuna-don_JH.png">
-							<h2>Spicy Tuna Don</h2>
-							<button>Add for ₱70</button>
+							<img id="partnerimg" src="assets\images\partner2.jpg">
 						</li>
 						<li>
-							<img id="logo" src="files\photos\chasiu-rice2-218x155.png">
-							<h2>Mini Chaisu Don</h2>
-							<button>Add for ₱240</button>
+							<img id="partnerimg" src="assets\images\partner3.jpg">
 						</li>
 						<li>
-							<img id="logo" src="files\photos\Mentai-Dashi-Maki.png">
-							<h2>Mantai Dashi Maki</h2>
-							<button>Add for ₱110</button>
+							<img id="partnerimg" src="assets\images\partner4.jpg">
 						</li>
 						<li>
-							<img id="logo" src="files\photos\Dashi-Maki-Tamago-218x155.png">
-							<h2>Dashi Maki Tamago</h2>
-							<button>Add for ₱900</button>
-						</li>
-						<li>
-							<img id="logo" src="files\photos\gyoza-218x155.png">
-							<h2>Gyoza</h2>
-							<button>Add for ₱160</button>
+							<img id="partnerimg" src="assets\images\partner5.jpg">
 						</li>
 					</ul>
 				</div>
+			</div>
 			<div id="rightcontain">
-				<h1>A New Drive</h1>
+				<h1>Countless of Partners</h1>
 				<p>Sa kasalukuyan, nag-iisa lang ang proyekto na ipinapagawa malapit sayo. Ito ay ang pagsasaayos ng pozo negro at canal sa San Anton, Main, Palmera, Aranga, at Reten street.</p>
 				<br>
 				<p>Asahan na ito ay matatapos sa taong 2020. Sa kasalukuyan, itong proyekto any aktibong-aktibo, na binabantayan ni Ginoong Ramon Robles.</p>
 				<br>
 				<p>Ang proyekto na ito ay sinimulan noong ika-17 ng Junyo, 2012 ng Administrasyong Aquino. Sa ngayon, ang komplesyon ng proyekto na ito at nasa 65% at ang progreso nito ay sakto sa iskedyul.</p>
-				<br>
-				<p>Mga ₱648,427 ang halaga ng pera na inilaan ng gobyerno para sa proyekto na ito.</p>
 				<br><br>
 				<button class="contactbutt" onclick="Redirect2()">TRY IT FOR FREE</button>
 			</div>
