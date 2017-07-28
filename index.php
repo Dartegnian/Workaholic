@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Cynthia</title>
+		<title>Workaholic Suite</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="Resources/style.css" rel="stylesheet">
-		<!-- <link rel="icon" type="image/png" href="Resources/Images/.png"> -->
-		<script src='Resources/jquery.min.js'></script>
-		<script src='Resources/textrotator.js'></script>
-		<link rel="stylesheet" type="text/css" href="Resources/textrotator.css"/>
+		<link href="assets/css/style.css" rel="stylesheet">
+		<link rel="icon" type="image/png" href="assets/images/logosmallsquareblue.png">
+		<script src='assets/js/jquery.min.js'></script>
+		<script src='assets/js/textrotator.js'></script>
+		<link rel="stylesheet" type="text/css" href="assets/css/textrotator.css"/>
 		<script>
 			$(document).ready(function(){
 				$(".header .rotate").textrotator({
@@ -28,9 +28,13 @@
 	</head>
 	<body>
 		<header>
+			<h1 style="display: inline;"> <img id="logo" src="assets\images\logoworkmark.png"/></h1>
 			<nav>
-				<a href="link1.html">Link 1</a> |
-				<a href="link2.html">Link 2</a>
+				<a href="link1.html" id="current">Home</a>
+				<a href="link2.html">Management</a>
+				<a href="link2.html">Management</a>
+				<a href="link2.html">Management</a>
+				<a href="link2.html">Management</a>
 			</nav>
 		</header>
 		<section id="hero">
@@ -44,7 +48,7 @@
 		</footer>
 		<footer id="apcfooter">
 			<center>
-				Coded with <a href="Resources\Images\APC-Hymn.jpg">❤</a> by the students of <a href="https://apc.edu.ph/" target="_blank">Asia Pacific College</a>
+				Coded with <a href="assets\images\APC-Hymn.jpg">❤</a> by the students of <a href="https://apc.edu.ph/" target="_blank">Asia Pacific College</a>
 			</center>
 		</footer>
 	</body>

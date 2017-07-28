@@ -25,16 +25,38 @@ button {
     -webkit-border-radius: 0px;
 }
 a {
-	color: #0099ff;
+	color: #0076ff;
+}
+nav a {
+    color: black;
+    text-transform: uppercase;
+    font-family: Segoe UI;
+    font-weight: 900;
+    padding: 0px;
+    padding-right: 30px;
+    text-align: left;
+    font-size: 20px;
+}
+nav {
+    padding-left: 20px;
+}
+nav #current {
+    color: #0076ff;
 }
 header {
     width: 100%;
 	z-index: 10;
     position: fixed;
-    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
     background: rgba(255, 255, 255, 0.7);
 	box-shadow: 0 1px 3px rgba(42,44,58,.15), 0 1px 2px rgba(129,165,238,.2);
 	backdrop-filter: blur(10px); /* chrome://flags/#enable-experimental-web-platform-features */
+}
+header img {
+    width: 300px;
+    padding-left: 20px;
+    padding-bottom: 30px;
 }
 footer {
     background-color: #ebefee;
@@ -43,7 +65,7 @@ footer {
 }
 #hero {
 	height: 250px;
-    background-color: #0099ff;
+    background-color: #0076ff;
 	padding: 20px;
 	text-align: center;
 	color: white;
@@ -52,7 +74,7 @@ footer {
 	font-size: 40px;
 }
 #apcfooter {
-    background: url(Images/APC.jpg);
+    background: url(../images/APC.jpg);
     background-size: 100% 57%;
     background-attachment: fixed;
     height: 20px;
@@ -84,6 +106,7 @@ footer {
     box-shadow: 0 1px 3px rgba(42,44,58,.25), 0 1px 2px rgba(129,165,238,.2);
 }
 #chevron {
+    color: #0076ff;
 	display: inline-block;
 	font-family: 'Segoe MDL2 Assets';
 	font-style: normal;
