@@ -17,7 +17,7 @@
 				});
 			});
 			$(function() {
-				$(".buttspecial").click(function() {
+				$("#backtotop").click(function() {
 					$("body,html").animate({
 						scrollTop: 0
 					}, 4500);
@@ -131,11 +131,11 @@
 			</div>
 			<div id="rightcontain">
 				<h1>Countless of Partners</h1>
-				<p>Sa kasalukuyan, nag-iisa lang ang proyekto na ipinapagawa malapit sayo. Ito ay ang pagsasaayos ng pozo negro at canal sa San Anton, Main, Palmera, Aranga, at Reten street.</p>
+				<p>As of now, the Workaholic login suite currently has 7 main partners to help employees get to their workplace safely and, most importantly, on time.</p>
 				<br>
-				<p>Asahan na ito ay matatapos sa taong 2020. Sa kasalukuyan, itong proyekto any aktibong-aktibo, na binabantayan ni Ginoong Ramon Robles.</p>
+				<p>Grab and Uber Philippines have partnered with us recently to introduce an emergency transport system designed to help those who are late for work get to their destination on time.</p>
 				<br>
-				<p>Ang proyekto na ito ay sinimulan noong ika-17 ng Junyo, 2012 ng Administrasyong Aquino. Sa ngayon, ang komplesyon ng proyekto na ito at nasa 65% at ang progreso nito ay sakto sa iskedyul.</p>
+				<p>Several international fast food companies (McDonalds, KFC, and Jollibee) have partnered with us to help those who are late, or are in a rush, get their day's meal. Still hot, and ready to eat. All upon your arrival to work.</p>
 				<br><br>
 				<button class="contactbutt" onclick="Redirect2()">TRY IT FOR FREE</button>
 			</div>
@@ -144,7 +144,45 @@
 			<div id="backtotop">
 				<i id="chevron"></i>
 			</div>
-			
+			<div id="footstuff">
+				<a href="Resources\Images\coatofarms.png" target="_blank">
+					<img src="assets\images\logosmall.png">
+				</a>
+				<div class="footcontain">
+					<h4>About Workaholic</h4>
+					<p>Learn more about the Philippine government, its structure, how government works, and the people behind it.</p>
+					<ul>
+					<li><a href="http://www.gov.ph">Official Gazette</a></li>
+					<li><a href="http://data.gov.ph">Open Data Portal</a></li>
+					<li><a href="http://www.gov.ph/feedback/idulog/">Send your feedback</a></li>
+					</ul>
+				</div>
+				<div class="footcontain">
+					<h4>Work-related Links</h4>
+					<ul>
+					<li><a href="http://president.gov.ph">The President</a></li>
+					<li><a href="http://op-proper.gov.ph">Office of the President</a></li>
+					<li><a href="http://ovp.gov.ph">Office of the Vice President</a></li>
+					<li><a href="http://senate.gov.ph/">Senate of the Philippines</a></li>
+					<li><a href="http://www.congress.gov.ph/">House of Representatives</a></li>
+					<li><a href="http://sc.judiciary.gov.ph/">Supreme Court</a></li>
+					<li><a href="http://ca.judiciary.gov.ph/">Court of Appeals</a></li>
+					<li><a href="http://sb.judiciary.gov.ph/">Sandiganbayan</a></li>
+					</ul>
+				</div>
+				<div class="footcontain">
+					<h4>About TANDA</h4>
+					<ul>
+					<li><a href="https://www.tanda.co/about/">About</a></li>
+					<li><a href="https://www.tanda.co/blog/">Careers</a></li>
+					<li><a href="https://www.facebook.com/tandaclocks">Facebook Page</a></li>
+					<li><a href="https://my.tanda.co/api/v2/documentation">API Docs</a></li>
+					<li><a href="https://my.tanda.co/try/">Free Trial</a></li>
+					<li><a href="http://help.tanda.co/">Help Center</a></li>
+					<li><a href="https://www.tanda.co/partners/">Parner Program</a></li>
+					</ul>
+				</div>
+				</div>
 		</footer>
 		<footer id="apcfooter">
 			<center>

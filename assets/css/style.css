@@ -40,7 +40,7 @@ input.inputfield, input.button, button.userbutt, button.contactbutt {
     font-family: Segoe UI Light;
     transition: all .50s;
 }
-button.userbutt:hover, button.contactbutt:hover {
+input.button:hover, button.userbutt:hover, button.contactbutt:hover {
     background-color: rgba(0,118,255, 0.6);
 }
 button.contactbutt {
@@ -211,6 +211,18 @@ li {
     padding-left: 0px;
     height: 400px;
 }
+.footcontain li {
+    display: block;
+    padding: 0px;
+    height: auto;
+}
+.footcontain {
+    width: 20%;
+    position: relative;
+    padding: 0px 40px 0px 40px;
+    float: left;
+    text-align: left;
+}
 header {
     width: 100%;
 	z-index: 10;
@@ -228,7 +240,36 @@ header img {
 footer {
     background-color: #040404;
 	padding: 30px;
-	position: relative;
+    position: relative;
+}
+footer a {
+    display: inline;
+}
+footer img {
+    width: 11%;
+    float: left;
+    display: inline;
+    padding: 0px 40px 0px 10px;
+}
+.footcontain h4 {
+    color: #0076ff;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+#footstuff {
+    padding-top: 40px;
+    overflow: hidden;
+}
+#footstuff a {
+    color: white;
+    font-size: 13px;
+    font-family: Segoe UI Light;
+}
+#footstuff ul {
+    padding-left: 0;
+}
+#footstuff p {
+    color: white;
 }
 #hero h1 {
     margin-top: 85px;
