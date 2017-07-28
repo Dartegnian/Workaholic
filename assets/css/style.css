@@ -11,7 +11,7 @@ button {
 }
 /* Further customization stuff, works mostly on Chromium */
 ::selection {
-    background: #6b3fa0;
+    background: #0076ff;
     color: white;
 }
 ::-webkit-scrollbar {
@@ -20,25 +20,32 @@ button {
     background: white;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #6b3fa0;
+    background-color: #0076ff;
     border-radius: 0px;
     -webkit-border-radius: 0px;
 }
 a {
 	color: #0076ff;
 }
+section#filler {
+    height: 140px;
+    background-color: #f5f7f6;
+}
 nav a {
-    color: black;
-    text-transform: uppercase;
-    font-family: Segoe UI;
-    font-weight: 900;
+    transition: all .50s;
+    color: white;
+    font-family: Helvetica;
+    font-weight: 100;
     padding: 0px;
     padding-right: 30px;
     text-align: left;
     font-size: 20px;
 }
 nav {
-    padding-left: 20px;
+    padding-left: 30px;
+}
+nav a:hover {
+    color: #0099ff;
 }
 nav #current {
     color: #0076ff;
@@ -47,31 +54,36 @@ header {
     width: 100%;
 	z-index: 10;
     position: fixed;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 20px;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(0, 0, 0, 0.7);
 	box-shadow: 0 1px 3px rgba(42,44,58,.15), 0 1px 2px rgba(129,165,238,.2);
 	backdrop-filter: blur(10px); /* chrome://flags/#enable-experimental-web-platform-features */
 }
 header img {
-    width: 300px;
-    padding-left: 20px;
-    padding-bottom: 30px;
+    width: 330px;
+    padding-left: 30px;
+    padding-bottom: 20px;
 }
 footer {
     background-color: #ebefee;
 	padding: 30px;
 	position: relative;
 }
+#hero h1 {
+    
+}
 #hero {
 	height: 250px;
     background-color: #0076ff;
+    background: url(../images/officedark.jpg) no-repeat center center fixed;
 	padding: 20px;
 	text-align: center;
 	color: white;
 	font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-	font-weight: 700;
-	font-size: 40px;
+    font-weight: 700;
+    background-size: cover;
+	font-size: 30px;
 }
 #apcfooter {
     background: url(../images/APC.jpg);
