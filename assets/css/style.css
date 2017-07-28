@@ -11,8 +11,8 @@ button {
 }
 /* Further customization stuff, works mostly on Chromium */
 ::selection {
-    background: #0076ff;
-    color: black;
+    background: black;
+    color: #0076ff;
 }
 ::-webkit-scrollbar {
     width: 4px;
@@ -31,13 +31,22 @@ section#filler {
     height: 137px;
     background-color: #000;
 }
-input.inputfield, input.button, button.userbutt {
+input.inputfield, input.button, button.userbutt, button.contactbutt {
     outline: transparent;
     border: 0;
     background-color: rgba(100, 100, 100, 0.3);
     color: white;
     padding: 10px;
     font-family: Segoe UI Light;
+    transition: all .50s;
+}
+button.userbutt:hover, button.contactbutt:hover {
+    background-color: rgba(0,118,255, 0.6);
+}
+button.contactbutt {
+    float: left;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 form td {
     font-family: Segoe UI Light;
@@ -66,6 +75,7 @@ section#content {
     color: white;
     overflow: hidden;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 h2 {
     margin: 0;
@@ -73,6 +83,7 @@ h2 {
     font-weight: 100;
     letter-spacing: 1px;
     font-size: 40px;
+    color: #0076ff;
 }
 p {
     font-family: Segoe UI Light;
@@ -93,11 +104,90 @@ p {
     float: left;
     width: 49%;
     margin-left: 3%;
-    padding: 2% 0%;
+    padding: 0% 2%;
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
     border-left: 1px solid #e5e5e5;
     border-right: 1px solid transparent;
+}
+#imagecontainer img {
+    width: 100%;
+    display: block;
+}
+.fullbackground {
+    background-color: #0076ff;
+    padding: 20px 20px 20px 40px;
+    text-align: center;
+    background: url(../images/citynight.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+div#rightcontain {
+    float: right;
+    width: 40%;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.6);
+	backdrop-filter: blur(10px);
+}
+#rightcontain p {
+    color: white;
+    font-size: 15px;
+    text-align: left;
+}
+#rightcontain h1 {
+    color: #0076ff;
+    text-align: left;
+    margin: 0px;
+    padding-bottom: 10px;
+    font-family: Helvetica Neue;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+div#leftcontain {
+    float: left;
+    width: 40%;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.6);
+	backdrop-filter: blur(10px);
+}
+#leftcontain p {
+    color: white;
+    font-size: 15px;
+    text-align: left;
+}
+#leftcontain h1 {
+    color: #0076ff;
+    text-align: left;
+    margin: 0px;
+    padding-bottom: 10px;
+    font-family: Helvetica Neue;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+.vertcontain {
+    width: 700px;
+    overflow-y: hidden;
+    float: left;
+}
+.vertcontain ul {
+    margin-top: 19px;
+}
+.vertcontain li {
+    height: 310px;
+}
+.vertcontain img {
+    width: 218px;
+}
+.vertcontain h2 {
+    color: white;
+}
+li {
+    display: inline-block;
+    padding: 0px 40px;
+    height: 400px;
 }
 header {
     width: 100%;
@@ -105,7 +195,7 @@ header {
     position: fixed;
     padding-top: 30px;
     padding-bottom: 20px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.6);
 	backdrop-filter: blur(10px); /* chrome://flags/#enable-experimental-web-platform-features */
 }
 header img {

@@ -65,32 +65,95 @@
 			<div id="imagecontainer">
 				<div id="image1container" class="images">
 					<a href="project1.php" target='_blank'>
-						<img src="Resources\Images\proj1-tacloban.jpg"\>
+						<img src="assets\images\wewlad1.jpeg"\>
 					</a>
 				</div>
-				<div id="otherimages">
-					<div id="image2container" class="images">
-						<a href="project5.php" target='_blank'>
-							<img src="Resources\Images\proj2-subway.jpg"\>
-						</a>
-					</div>
-					<div id="image3container" class="images">
-						<a href="project3.php" target='_blank'>
-							<img src="Resources\Images\proj3-subway.jpg"\>
-						</a>
-					</div>
+			</div>
+			<aside id="infospace">
+				<h2>What's Workaholic?</h2>
+				<p class="firsttwo">Workaholic is a suite of tools that can help ease your employees commute to your workplace. Designed by a team from the Philippines, and hailing from Asia Pacific College, Workaholic is the best and the most sure-fire way to get your employees to work on time, prepared, and all set.</p>
+				<br/>
+				<h2>Accomplishments</h2>
+				<p>Since 2016, this team has been helping Asia Pacific College to lessen the spread of computer viruses, and through thorough research and determination they succeeded, as their project continues to this day. Their aim to accomplish their Vision never ceases as they keep on developing and innovating to help the society to become greener and better. One of their greatest achievement is the Cyclicity App, the app has reduced the pollution in the Philippines to at least 60% compared to the other years.</p>
+			</aside>
+		</section>
+		<section class="fullbackground">
+			<div id="leftcontain">
+				<h1>A New Drive</h1>
+				<p>Sa kasalukuyan, nag-iisa lang ang proyekto na ipinapagawa malapit sayo. Ito ay ang pagsasaayos ng pozo negro at canal sa San Anton, Main, Palmera, Aranga, at Reten street.</p>
+				<br>
+				<p>Asahan na ito ay matatapos sa taong 2020. Sa kasalukuyan, itong proyekto any aktibong-aktibo, na binabantayan ni Ginoong Ramon Robles.</p>
+				<br>
+				<p>Ang proyekto na ito ay sinimulan noong ika-17 ng Junyo, 2012 ng Administrasyong Aquino. Sa ngayon, ang komplesyon ng proyekto na ito at nasa 65% at ang progreso nito ay sakto sa iskedyul.</p>
+				<br>
+				<p>Mga ₱648,427 ang halaga ng pera na inilaan ng gobyerno para sa proyekto na ito.</p>
+				<br><br>
+				<button class="contactbutt" onclick="Redirect2()">TRY IT FOR FREE</button>
+			</div>
+		</section>
+		<section id="content">
+			<div id="imagecontainer">
+				<div id="image1container" class="images">
+					<a href="project1.php" target='_blank'>
+						<img src="assets\images\wewlad1.jpeg"\>
+					</a>
 				</div>
 			</div>
-		<aside id="infospace">
-			<h2>Vision</h2>
-			<p class="firsttwo">Regarding this Website and Mobile app, we aim to increase the transparency between the government and our fellow Filipino citizens. We do this by displaying almost all of the activities of the government in this website and mobile app, so that our fellow citizen may view those activities for them to be informed. The best way for the government to connect to the people and vice versa is to be informed of the activities they currently do. </p>
-			<br/>
-			<h2>Mission</h2>
-			<p class="firsttwo">Our group aims to help the Philippines to have a greener, cleaner, and prosperous society through technology powered by innovations and creativity. Technology can do so much with so little effort, but it’s a shame that we can do little with so much technology. Our team aims to unleash and utilize technology to connect people so that together we can make a change for a better environment.</p>
-			<br>
-			<h2>Accomplishments</h2>
-			<p>Since 2016, this team has been helping Asia Pacific College to lessen the spread of computer viruses, and through thorough research and determination they succeeded, as their project continues to this day. Their aim to accomplish their Vision never ceases as they keep on developing and innovating to help the society to become greener and better. One of their greatest achievement is the Cyclicity App, the app has reduced the pollution in the Philippines to at least 60% compared to the other years.</p>
-		</aside>
+			<aside id="infospace">
+				<h2>What's Workaholic?</h2>
+				<p class="firsttwo">Workaholic is a suite of tools that can help ease your employees commute to your workplace. Designed by a team from the Philippines, and hailing from Asia Pacific College, Workaholic is the best and the most sure-fire way to get your employees to work on time, prepared, and all set.</p>
+				<br/>
+				<h2>Accomplishments</h2>
+				<p>Since 2016, this team has been helping Asia Pacific College to lessen the spread of computer viruses, and through thorough research and determination they succeeded, as their project continues to this day. Their aim to accomplish their Vision never ceases as they keep on developing and innovating to help the society to become greener and better. One of their greatest achievement is the Cyclicity App, the app has reduced the pollution in the Philippines to at least 60% compared to the other years.</p>
+			</aside>
+		</section>
+		<section class="fullbackground">
+			<div class="vertcontain">
+					<ul>
+						<li>
+							<img id="logo" src="files\photos\potato-salad1-218x155.png">
+							<h2>Potato Salad</h2>
+							<button>Add for ₱50</button>
+						</li>
+						<li>
+							<img id="logo" src="files\photos\Spicy-tuna-don_JH.png">
+							<h2>Spicy Tuna Don</h2>
+							<button>Add for ₱70</button>
+						</li>
+						<li>
+							<img id="logo" src="files\photos\chasiu-rice2-218x155.png">
+							<h2>Mini Chaisu Don</h2>
+							<button>Add for ₱240</button>
+						</li>
+						<li>
+							<img id="logo" src="files\photos\Mentai-Dashi-Maki.png">
+							<h2>Mantai Dashi Maki</h2>
+							<button>Add for ₱110</button>
+						</li>
+						<li>
+							<img id="logo" src="files\photos\Dashi-Maki-Tamago-218x155.png">
+							<h2>Dashi Maki Tamago</h2>
+							<button>Add for ₱900</button>
+						</li>
+						<li>
+							<img id="logo" src="files\photos\gyoza-218x155.png">
+							<h2>Gyoza</h2>
+							<button>Add for ₱160</button>
+						</li>
+					</ul>
+				</div>
+			<div id="rightcontain">
+				<h1>A New Drive</h1>
+				<p>Sa kasalukuyan, nag-iisa lang ang proyekto na ipinapagawa malapit sayo. Ito ay ang pagsasaayos ng pozo negro at canal sa San Anton, Main, Palmera, Aranga, at Reten street.</p>
+				<br>
+				<p>Asahan na ito ay matatapos sa taong 2020. Sa kasalukuyan, itong proyekto any aktibong-aktibo, na binabantayan ni Ginoong Ramon Robles.</p>
+				<br>
+				<p>Ang proyekto na ito ay sinimulan noong ika-17 ng Junyo, 2012 ng Administrasyong Aquino. Sa ngayon, ang komplesyon ng proyekto na ito at nasa 65% at ang progreso nito ay sakto sa iskedyul.</p>
+				<br>
+				<p>Mga ₱648,427 ang halaga ng pera na inilaan ng gobyerno para sa proyekto na ito.</p>
+				<br><br>
+				<button class="contactbutt" onclick="Redirect2()">TRY IT FOR FREE</button>
+			</div>
 		</section>
 		<footer>
 			<div id="backtotop">
