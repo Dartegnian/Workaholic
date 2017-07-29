@@ -266,7 +266,7 @@
 				<i id="chevron"></i>
 			</div>
 			<div id="footstuff">
-				<a href="Resources\Images\coatofarms.png" target="_blank">
+				<a href="http://tanda.co" target="_blank">
 					<img src="assets\images\logosmall.png">
 				</a>
 				<div class="footcontain">

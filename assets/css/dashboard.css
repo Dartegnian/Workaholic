@@ -32,8 +32,12 @@ a {
 	color: #0076ff;
 }
 section#filler {
-    height: 137px;
+    height: 139px;
     background-color: #000;
+    background-image: url(../images/citynight.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
 }
 input.inputfield, input.button, button.userbutt, button.contactbutt {
     outline: transparent;
@@ -76,11 +80,11 @@ nav #current {
     color: #0076ff;
 }
 section#content {
-    background-color: black;
+    background-color: #d9d9da;
     color: white;
     overflow: hidden;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 h2 {
     margin: 0;
@@ -416,12 +420,132 @@ div#formcontainer {
     font-size: 13px;
 }
 #content h1 {
-    text-align: center;
-    margin-top: 0;
-    color: #0076ff;
+    text-align: left;
+    padding-left: 40px;
+    margin-top: -20px;
+    color: #333;
     padding-bottom: 10px;
-    font-family: Helvetica Neue;
+    font-family: Segoe UI Light;
     font-weight: 100;
-    letter-spacing: 1px;
     font-size: 40px;
+}
+div#entrycontainer {
+        padding: 0px;
+    text-align: center;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+div#entryfiller {
+    width: 27.4%;
+    height: 515px;
+    background-color: #111;
+    margin: 0px 40px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.36), 0 3px 6px rgba(0,0,0,0.43);
+    background-position: center;
+    transition: all .50s;
+    background-size: cover;
+    margin-bottom: 120px;
+}
+div#entry {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    height: 525px;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+#entryfiller:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+h6 {
+    color: white;
+    font-family: Segoe UI Black;
+    font-size: 70px;
+    background-color: #1a5dad;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border: 0px solid #ee293d;
+}
+h5 {
+    color: white;
+    font-family: Segoe UI Semibold;
+    font-size: 30px;
+    border-radius: 100px;
+    margin: 0;
+    padding: 20px 0px;
+    padding-bottom: 0px;
+    text-transform: capitalize;
+}
+#entry p {
+    font-style: italic;
+    font-size: 17px;
+    height: 40px;
+}
+#perfcontainer {
+    font-family: 'Segoe MDL2 Assets';
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+#entry h6 {
+    background-size: cover;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.36), 0 3px 6px rgba(0,0,0,0.43);
+}
+h4.loggedin {
+    margin-top: 0px;
+    color: #02d602;
+    font-family: Segoe UI;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+h4.loggedout {
+    margin-top: 0px;
+    color: #f03339;
+    font-family: Segoe UI;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.moreinfo {
+    background-color: rgba(100, 100, 100, 0.3);
+    background-size: 30px;
+    padding-left: 35px;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 10px;
+    padding-left: 35px;
+    text-align: left;
+    font-family: Segoe UI Light;
+    font-size: 13px;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#info1 {
+    background-image: url(../images/point.png);
+}
+#info2 {
+    background-image: url(../images/mail.png);
+}
+#info3 {
+    background-image: url(../images/cart.png);
+}
+#fltlft {
+    float: left;
+    padding-left: 10px;
+    text-align: center;
+    background-color: rgba(2, 214, 2, 0.5);
+}
+#fltrght {
+    float: right;
+    padding-left: 10px;
+    text-align: center;
+    background-color: rgba(240, 51, 57, 0.5);
+}
+.floatcontain {
+    width: 74%;
+    margin: 0 auto;
+}
+.floatcontain button {
+    border: 0;
+    width: 46%;
 }
