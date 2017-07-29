@@ -54,6 +54,7 @@
 				<a href="link1.html" id="current">Home</a>
 				<a href="link2.html">Dashboard</a>
 				<a href="link2.html">Mobile App</a>
+				<a href="link2.html">Browser Extension</a>
 				<a href="link2.html">About</a>
 			</nav>
 		</header>
@@ -84,7 +85,7 @@
 		<section class="fullbackground">
 			<div id="leftcontain">
 				<h1>A New Drive</h1>
-				<p>Sa kasalukuyan, nag-iisa lang ang proyekto na ipinapagawa malapit sayo. Ito ay ang pagsasaayos ng pozo negro at canal sa San Anton, Main, Palmera, Aranga, at Reten street.</p>
+				<p>Want to try and see what Workaholic can do for your company? Want to see the features it has and see if it's right for your business? We've got you covered, we offer test drives to companies who are interested in the service.</p>
 				<br>
 				<p>Asahan na ito ay matatapos sa taong 2020. Sa kasalukuyan, itong proyekto any aktibong-aktibo, na binabantayan ni Ginoong Ramon Robles.</p>
 				<br>
@@ -92,7 +93,7 @@
 				<br>
 				<p>Mga ₱648,427 ang halaga ng pera na inilaan ng gobyerno para sa proyekto na ito.</p>
 				<br><br>
-				<button class="contactbutt" onclick="Redirect2()">PARTNER UP</button>
+				<button class="contactbutt" id="drivebutt" onclick="Redirect2()">Test Drive</button>
 			</div>
 		</section>
 		<section id="content">
@@ -158,8 +159,85 @@
 				<br>
 				<p>Several international fast food companies (McDonalds, KFC, and Jollibee) have partnered with us to help those who are late, or are in a rush, get their day's meal. Still hot, and ready to eat. All upon your arrival to work.</p>
 				<br><br>
-				<button class="contactbutt" onclick="Redirect2()">PARTNER UP</button>
+				<button class="contactbutt" id="partnerbutt" onclick="Redirect2()">PARTNER UP</button>
 			</div>
+		</section>
+		<section id="content">
+			<h1>Companies Using Workaholic</h1>
+			<table width="95%" cellspacing="5" border="0" style="margin: 0 auto;">
+				  <tbody>
+				    <tr>
+				      <th scope="col">Technology</th>
+				      <th scope="col">Business</th>
+				      <th scope="col">Banking</th>
+				      <th scope="col">Retail</th>
+				      <th scope="col">Food</th>
+				    </tr>
+				    <tr>
+				      <td>Google</td>
+				      <td>Forbes</td>
+				      <td>Banco De Oro</td>
+				      <td>SM Group of Companies</td>
+				      <td>McDonalds</td>
+				    </tr>
+				    <tr>
+				      <td>Microsoft</td>
+				      <td>New York Times</td>
+				      <td>Bank of the Philippine Islands</td>
+				      <td>SM Development Group</td>
+				      <td>Kentucky Fried Chicken</td>
+				    </tr>
+				    <tr>
+				      <td>Apple</td>
+				      <td>Time Magazine</td>
+				      <td>Chinabank</td>
+				      <td>Robinson's Galleria</td>
+				      <td>Jollibee</td>
+				    </tr>
+				    <tr>
+				      <td>GitHub</td>
+				      <td>Marlboro</td>
+				      <td>Landbank</td>
+				      <td>Greenhills Manila</td>
+				      <td>Greenwich</td>
+				    </tr>
+				    <tr>
+				      <td>Amazon</td>
+				      <td>ABS-CBN</td>
+				      <td>ACDI Cooperative</td>
+				      <td>Waltermart</td>
+				      <td>Yellow Cab Co.</td>
+				    </tr>
+				    <tr>
+				      <td>Yahoo!</td>
+				      <td>TV 5</td>
+				      <td>Philippine National Bank</td>
+				      <td>Ayala Land Co.</td>
+				      <td>Pizza Hut</td>
+				    </tr>
+				    <tr>
+				      <td>Acer</td>
+				      <td>SYG Holdings</td>
+				      <td>Asia United Bank</td>
+				      <td>St. Francis Square</td>
+				      <td>Dairy Queen</td>
+				    </tr>
+				    <tr>
+				      <td>Dell</td>
+				      <td>Coridel Group</td>
+				      <td>Metrobank</td>
+				      <td>Ministop</td>
+				      <td>Papa John's</td>
+				    </tr>
+				    <tr>
+				      <td>Asus</td>
+				      <td>SM Entertainment</td>
+				      <td>Citibank</td>
+				      <td>7/11</td>
+				      <td>Miguelitos</td>
+				    </tr>
+				  </tbody>
+				</table>
 		</section>
 		<section class="fullbackground" id="final">
 			<h1>Get a FREE Quote Today!</h1>
@@ -175,9 +253,6 @@
 						<tr style="display: inline;">
 						<td colspan="2" align="center"><input type="submit" value="Get Quote" class="button"/></td>
 						</tr>
-						<tr style="display: inline;">
-						<td colspan="2" align="center">
-						</td>
 						</tr>
 					</table>
 				</form>
@@ -193,24 +268,24 @@
 				</a>
 				<div class="footcontain">
 					<h4>About Workaholic</h4>
-					<p>Learn more about the Philippine government, its structure, how government works, and the people behind it.</p>
+					<p>Learn more about the automated login suite, its structure, how it works, and the people behind it.</p>
 					<ul>
-					<li><a href="http://www.gov.ph">Official Gazette</a></li>
-					<li><a href="http://data.gov.ph">Open Data Portal</a></li>
-					<li><a href="http://www.gov.ph/feedback/idulog/">Send your feedback</a></li>
+					<li><a href="about.html">About us</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="privacy.html">Privacy Policy</a></li>
+					<li><a href="feedback.html">Send your feedback</a></li>
 					</ul>
 				</div>
 				<div class="footcontain">
-					<h4>Work-related Links</h4>
+					<h4>Workaholic Links</h4>
 					<ul>
-					<li><a href="http://president.gov.ph">The President</a></li>
-					<li><a href="http://op-proper.gov.ph">Office of the President</a></li>
-					<li><a href="http://ovp.gov.ph">Office of the Vice President</a></li>
-					<li><a href="http://senate.gov.ph/">Senate of the Philippines</a></li>
-					<li><a href="http://www.congress.gov.ph/">House of Representatives</a></li>
-					<li><a href="http://sc.judiciary.gov.ph/">Supreme Court</a></li>
-					<li><a href="http://ca.judiciary.gov.ph/">Court of Appeals</a></li>
-					<li><a href="http://sb.judiciary.gov.ph/">Sandiganbayan</a></li>
+					<li><a href="https://www.dartegnian.co">Current Partners</a></li>
+					<li><a href="https://www.dartegnian.co">Partner With Us</a></li>
+					<li><a href="https://www.dartegnian.co">Service Status</a></li>
+					<li><a href="https://www.dartegnian.co">Licensing</a></li>
+					<li><a href="https://www.dartegnian.co">Tutorials</a></li>
+					<li><a href="https://www.dartegnian.co">Get Help</a></li>
+					<li><a href="https://www.dartegnian.co">Termination</a></li>
 					</ul>
 				</div>
 				<div class="footcontain">
@@ -223,6 +298,18 @@
 					<li><a href="https://my.tanda.co/try/">Free Trial</a></li>
 					<li><a href="http://help.tanda.co/">Help Center</a></li>
 					<li><a href="https://www.tanda.co/partners/">Parner Program</a></li>
+					</ul>
+				</div>
+				<div class="footcontain">
+					<h4>Other TANDA Links</h4>
+					<ul>
+					<li><a href="https://www.tanda.co/employee-time-clock/">Time Clock</a></li>
+					<li><a href="https://www.tanda.co/pricing/">Pricing</a></li>
+					<li><a href="https://www.tanda.co/leave-management/">Leave Management</a></li>
+					<li><a href="https://www.tanda.co/award-interpretation/">Award Interpretation</a></li>
+					<li><a href="https://www.tanda.co/rostering-software/">Rostering Software</a></li>
+					<li><a href="https://www.tanda.co/payroll/">Payroll Integration</a></li>
+					<li><a href="https://www.tanda.co/webinars/">Webinars</a></li>
 					</ul>
 				</div>
 				</div>
