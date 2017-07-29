@@ -5,10 +5,11 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="assets/css/style.css" rel="stylesheet">
-		<link rel="icon" type="image/png" href="assets/images/logosmallsquareblue.png">
+		<link rel="icon" type="image/png" href="assets/images/logosmallsquare.png">
 		<script src='assets/js/jquery.min.js'></script>
 		<script src='assets/js/textrotator.js'></script>
 		<link rel="stylesheet" type="text/css" href="assets/css/textrotator.css"/>
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 		<script>
 			$(document).ready(function(){
 				$(".header .rotate").textrotator({
@@ -73,8 +74,11 @@
 				<h2>What's Workaholic?</h2>
 				<p class="firsttwo">Workaholic is a suite of tools that can help ease your employees commute to your workplace. Designed by a team from the Philippines, and hailing from Asia Pacific College, Workaholic is the best and the most sure-fire way to get your employees to work on time, prepared, and all set.</p>
 				<br/>
-				<h2>Accomplishments</h2>
-				<p>Since 2016, this team has been helping Asia Pacific College to lessen the spread of computer viruses, and through thorough research and determination they succeeded, as their project continues to this day. Their aim to accomplish their Vision never ceases as they keep on developing and innovating to help the society to become greener and better. One of their greatest achievement is the Cyclicity App, the app has reduced the pollution in the Philippines to at least 60% compared to the other years.</p>
+				<h2>Mission</h2>
+				<p class="firsttwo">Workaholic aims to be the go-to application that your employees use when getting to work. This aims to be the best suite for workers everywhere.</p>
+				<br/>
+				<h2>About the Team</h2>
+				<p>Ever since early 2017, the team that has developed Workaholic has been competing in hackathons and posting on their GitHub accounts. They have developed several software solutions for widescale use, such as a modern incentivized garbage disposal system, a location-based project viewing system, and recently a space information portal.</p>
 			</aside>
 		</section>
 		<section class="fullbackground">
@@ -95,16 +99,27 @@
 			<div id="imagecontainer">
 				<div id="image1container" class="images">
 					<a href="project1.php" target='_blank'>
-						<img src="assets\images\wewlad1.jpeg"\>
+						<img src="assets\images\devices.png"\>
 					</a>
 				</div>
 			</div>
 			<aside id="infospace">
-				<h2>What's Workaholic?</h2>
-				<p class="firsttwo">Workaholic is a suite of tools that can help ease your employees commute to your workplace. Designed by a team from the Philippines, and hailing from Asia Pacific College, Workaholic is the best and the most sure-fire way to get your employees to work on time, prepared, and all set.</p>
+				<h2>Available Wherever You Go</h2>
+				<p class="firsttwo">We've developed the Workaholic service to run smoothly and elegantly on across all modern devices. From screens as large as a TV set to the screen on your phone, you can guarantee that you'll never lose sight of your work, schedule, or how we'll you've done throughout the weeks.</p>
 				<br/>
-				<h2>Accomplishments</h2>
-				<p>Since 2016, this team has been helping Asia Pacific College to lessen the spread of computer viruses, and through thorough research and determination they succeeded, as their project continues to this day. Their aim to accomplish their Vision never ceases as they keep on developing and innovating to help the society to become greener and better. One of their greatest achievement is the Cyclicity App, the app has reduced the pollution in the Philippines to at least 60% compared to the other years.</p>
+				<h2>Cross-Platform</h2>
+				<p class="firsttwo">Workaholic is available on <strong>ALL</strong> major application stores. It is available as a standalone application on iOS, Android, and Windows 10 devices. It also comes as a browser extension on the Chrome Web Store, on the Mozilla Marketplace for Firefox, and on the Opera Mobile Store.</p>
+				<br/>
+				<div class="platform-icons cf">
+					<a id="apple" href="https://itunes.apple.com/app/id910639339?utm_source=mystudylife.com&amp;utm_medium=platforms" target="_blank">
+					<i class="fa fa-apple" aria-hidden="true"></i></a>
+					<a id="android" href="https://play.google.com/store/apps/details?id=com.virblue.mystudylife&amp;utm_source=mystudylife.com&amp;utm_medium=platforms" target="_blank"><i class="fa fa-android" aria-hidden="true"></i></a>
+					<a id="windows" href="http://apps.microsoft.com/windows/app/my-study-life/3b763f6d-96dd-40a2-83e3-a3295b8e3697?utm_source=mystudylife.com&amp;utm_medium=platforms" target="_blank"></a>
+					<a id="chrome" href="https://chrome.google.com/webstore/detail/my-study-life/mnjdjjiobjicmlhnjlogfgbibihjhkeo?utm_source=mystudylife.com&amp;utm_medium=platforms" target="_blank"><i class="fa fa-chrome" aria-hidden="true"></i></a>
+					<a id="firefox" href="https://chrome.google.com/webstore/detail/my-study-life/mnjdjjiobjicmlhnjlogfgbibihjhkeo?utm_source=mystudylife.com&amp;utm_medium=platforms" target="_blank"><i class="fa fa-firefox" aria-hidden="true"></i></i></a>
+					<a id="opera" href="https://chrome.google.com/webstore/detail/my-study-life/mnjdjjiobjicmlhnjlogfgbibihjhkeo?utm_source=mystudylife.com&amp;utm_medium=platforms" target="_blank"><i class="fa fa-opera" aria-hidden="true"></i></a>
+					<a id="edge" href="https://chrome.google.com/webstore/detail/my-study-life/mnjdjjiobjicmlhnjlogfgbibihjhkeo?utm_source=mystudylife.com&amp;utm_medium=platforms" target="_blank"><i class="fa fa-edge" aria-hidden="true"></i></a>
+            	</div>
 			</aside>
 		</section>
 		<section class="fullbackground" id="vertmenu">

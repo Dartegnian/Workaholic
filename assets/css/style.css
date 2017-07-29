@@ -372,3 +372,13 @@ div#formcontainer {
     margin-bottom: -30px;
     margin-top: 50px;
 }
+.fa {
+    color: white;
+    font-size: 50px !important;
+    padding-right: 20px;
+    padding-top: 20px;
+    transition: all .50s;
+}
+.fa:hover {
+    color: #0076ff;
+}
