@@ -437,7 +437,7 @@ div#entrycontainer {
 }
 div#entryfiller {
     width: 27.4%;
-    height: 515px;
+    height: 505px;
     background-color: #111;
     margin: 0px 40px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.36), 0 3px 6px rgba(0,0,0,0.43);
@@ -449,7 +449,7 @@ div#entryfiller {
 div#entry {
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(10px);
-    height: 525px;
+    height: 505px;
     padding: 20px;
     padding-bottom: 0px;
 }

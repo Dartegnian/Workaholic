@@ -55,8 +55,8 @@
 			<nav>
 				<a id="current" style="border-right: 1px solid #e4e4e4;">Dashboard</a>
 				<a id="current" href="link2.html" style="padding-left: 25px;">Summary</a>
-				<a href="link2.html">Leaderboard</a>
-				<a href="link2.html">Available Prizes</a>
+				<a href="leaderboard.php">Leaderboard</a>
+				<a href="prizes.php">Available Prizes</a>
 			</nav>
 		</header>
 		<section id="filler">
@@ -78,7 +78,7 @@
 							pcalugas@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
-							69,000 total points
+							690,000 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">
@@ -130,7 +130,7 @@
 							jeadriano@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
-							4,000 total points
+							550,000 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">
@@ -278,6 +278,84 @@
 						<h5>Antonio Lu</h5>
 						<p>Chinese Ambassador</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							9 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							jeadriano@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							4,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/Calma.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/Calma.jpg);"></h6>
+						<h5>Katelyn Calma</h5>
+						<p>R&D Manager</p>
+						<h4 class="loggedout">CLOCKED OUT</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							15 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							pcalugas@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							69,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: right; background-image: url(assets/images/Roguel.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/Roguel.jpg);"></h6>
+						<h5>Kaila Pangilinan</h5>
+						<p>Fashion Designer</p>
+						<h4 class="loggedout">CLOCKED OUT</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							75 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							minaambrocio@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							420,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/Munar.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/Munar.jpg);"></h6>
+						<h5>Samantha Sy</h5>
+						<p>Human Resources</p>
+						<h4 class="loggedout">CLOCKED OUT</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
 							9 logins
