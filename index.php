@@ -31,24 +31,24 @@
 			<h1 style="display: inline;"> <img id="logo" src="assets\images\logowhite.png"/></h1>
 			<button style="display: inline-block;float: right; margin-left: -5px; margin-top: 4px; margin-right: 30px;" class="userbutt" onclick="Redirect()">Register</button>
 			<form action="signingin.php" method="post" style="display: inline;">
-			<table border="0" style="display: inline; float: right;">
-				<tr style="display: inline;">
-				<td style="color: #fff">Username</td>
-				<td align="left"><input class="inputfield" type="text" name="username" size="20" maxlength="50" /></td>
-				</tr>
-				<tr style="display: inline;">
-				<td style="color: #fff">Password</td>
-				<td align="left"><input class="inputfield" type="password" name="password" size="20" maxlength="50" /></td>
-				</tr>
-				<tr style="display: inline;">
-				<td style="border-right: 1px solid #e4e4e4; padding-right: 10px;" colspan="2" align="center"><input type="submit" value="Log In" class="button"/></td>
-				</tr>
-				<tr style="display: inline;">
-				<td colspan="2" align="center">
-				</td>
-				</tr>
-			</table>
-		</form>
+				<table border="0" style="display: inline; float: right;">
+					<tr style="display: inline;">
+					<td style="color: #fff">Username</td>
+					<td align="left"><input class="inputfield" type="text" name="username" size="20" maxlength="50" style="background: url(assets/images/people.png); background-color: rgba(100, 100, 100, 0.3); background-size: 30px; padding-left: 35px; background-repeat: no-repeat;"></td>
+					</tr>
+					<tr style="display: inline;">
+					<td style="color: #fff">Password</td>
+					<td align="left"><input class="inputfield" type="password" name="password" style="background: url(assets/images/lock.png); background-color: rgba(100, 100, 100, 0.3); background-size: 30px; padding-left: 35px; background-repeat: no-repeat;" size="20" maxlength="50" /></td>
+					</tr>
+					<tr style="display: inline;">
+					<td style="border-right: 1px solid #e4e4e4; padding-right: 10px;" colspan="2" align="center"><input type="submit" value="Log In" class="button"/></td>
+					</tr>
+					<tr style="display: inline;">
+					<td colspan="2" align="center">
+					</td>
+					</tr>
+				</table>
+			</form>
 			<nav>
 				<a href="link1.html" id="current">Home</a>
 				<a href="link2.html">Dashboard</a>
@@ -88,7 +88,7 @@
 				<br>
 				<p>Mga ₱648,427 ang halaga ng pera na inilaan ng gobyerno para sa proyekto na ito.</p>
 				<br><br>
-				<button class="contactbutt" onclick="Redirect2()">TRY IT FOR FREE</button>
+				<button class="contactbutt" onclick="Redirect2()">PARTNER UP</button>
 			</div>
 		</section>
 		<section id="content">
@@ -121,7 +121,13 @@
 							<img id="partnerimg" src="assets\images\partner3.jpg">
 						</li>
 						<li>
+							<img id="partnerimg" src="assets\images\partner7.jpg">
+						</li>
+						<li>
 							<img id="partnerimg" src="assets\images\partner4.jpg">
+						</li>
+						<li>
+							<img id="partnerimg" src="assets\images\partner6.jpg">
 						</li>
 						<li>
 							<img id="partnerimg" src="assets\images\partner5.jpg">
@@ -137,7 +143,29 @@
 				<br>
 				<p>Several international fast food companies (McDonalds, KFC, and Jollibee) have partnered with us to help those who are late, or are in a rush, get their day's meal. Still hot, and ready to eat. All upon your arrival to work.</p>
 				<br><br>
-				<button class="contactbutt" onclick="Redirect2()">TRY IT FOR FREE</button>
+				<button class="contactbutt" onclick="Redirect2()">PARTNER UP</button>
+			</div>
+		</section>
+		<section class="fullbackground" id="final">
+			<h1>Get a FREE Quote Today!</h1>
+			<div id="formcontainer">
+				<form action="signingin.php" method="post" style="display: inline;">
+					<table border="0" style="display: inline; margin: 0 auto">
+						<tr style="display: inline;">
+						<td align="left"><input class="inputfield" type="text" name="username" size="20" placeholder="Company name" style="background-image: url(assets/images/city.png);" maxlength="50"></td>
+						</tr>
+						<tr style="display: inline;">
+						<td align="left"><input class="inputfield" type="text" name="password" style="background-image: url(assets/images/mail.png);" placeholder="Contact email" size="20" maxlength="50" /></td>
+						</tr>
+						<tr style="display: inline;">
+						<td colspan="2" align="center"><input type="submit" value="Get Quote" class="button"/></td>
+						</tr>
+						<tr style="display: inline;">
+						<td colspan="2" align="center">
+						</td>
+						</tr>
+					</table>
+				</form>
 			</div>
 		</section>
 		<footer>
