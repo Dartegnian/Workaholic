@@ -87,11 +87,11 @@
 				<h1>A New Drive</h1>
 				<p>Want to try and see what Workaholic can do for your company? Want to see the features it has and see if it's right for your business? We've got you covered, we offer test drives to companies who are interested in the service.</p>
 				<br>
-				<p>Asahan na ito ay matatapos sa taong 2020. Sa kasalukuyan, itong proyekto any aktibong-aktibo, na binabantayan ni Ginoong Ramon Robles.</p>
+				<p>If you want to find out if the Workaholic suite is really right for your company, you can contact us below and ask for a trial today. We can guarantee your money back if you don't get the services advertised.</p>
 				<br>
-				<p>Ang proyekto na ito ay sinimulan noong ika-17 ng Junyo, 2012 ng Administrasyong Aquino. Sa ngayon, ang komplesyon ng proyekto na ito at nasa 65% at ang progreso nito ay sakto sa iskedyul.</p>
+				<p>Don't worry, we've got experts from all over the world who are more-than-skilled enough to know how to integrate our services into your business. It make take up to 15 business days for a full implementation, but rest assured, you will be getting the full suite.</p>
 				<br>
-				<p>Mga ₱648,427 ang halaga ng pera na inilaan ng gobyerno para sa proyekto na ito.</p>
+				<p>So, what are you waiting for? Contact us today and test drive a shiny new Workaholic suite!</p>
 				<br><br>
 				<button class="contactbutt" id="drivebutt" onclick="Redirect2()">Test Drive</button>
 			</div>
