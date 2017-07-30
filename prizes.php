@@ -28,21 +28,20 @@
 			function popup() { // Declare a function
     			alert("Invalid or empty credentials.");
 			}
+			function Logout() {
+				window.location="index.php";
+			}
 		</script>
 	</head>
 	<body>
 		<header>
 			<h1 style="display: inline;"> <a href="index.php"><img id="logo" src="assets\images\logowhite.png"/></a></h1>
-			<button style="display: inline-block;float: right; margin-left: -5px; margin-top: 4px; margin-right: 30px;" class="userbutt" onclick="Redirect()">Register</button>
+			<button style="display: inline-block;float: right; margin-left: -5px; margin-top: 4px; margin-right: 30px;" class="userbutt" onclick="Logout()">Logout</button>
 			<form action="dashboard.php" method="post" style="display: inline;">
 				<table border="0" style="display: inline; float: right;">
 					<tr style="display: inline;">
 					<td align="left"><input class="inputfield" type="text" readonly="yes" name="username" value="<?php
-					if ($_POST['username'] == null) {
-						$username = "dartegnian";
-					} else {
-						$username = $_POST['username'];
-					}
+					$username = $_POST['username'];
 					echo $username;
 					?>"
 				size="20" maxlength="50" style="background: url(assets/images/people.png); background-color: rgba(100, 100, 100, 0.3); background-size: 30px; padding-left: 35px; background-repeat: no-repeat;"></td>
