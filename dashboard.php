@@ -409,7 +409,7 @@
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							25 logins
+							4 logins
 						</div>
 						<div class="moreinfo" id="info2">
 							kmelad@workaholic.co
@@ -435,7 +435,7 @@
 						<h4 class="loggedout">CLOCKED OUT</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							42 logins
+							53 logins
 						</div>
 						<div class="moreinfo" id="info2">
 							sjung@workaholic.co
@@ -461,7 +461,7 @@
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							92 logins
+							12 logins
 						</div>
 						<div class="moreinfo" id="info2">
 							sreyes@workaholic.co
@@ -487,7 +487,7 @@
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							25 logins
+							72 logins
 						</div>
 						<div class="moreinfo" id="info2">
 							cdelfin@workaholic.co
@@ -513,7 +513,7 @@
 						<h4 class="loggedout">CLOCKED OUT</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							45 logins
+							26 logins
 						</div>
 						<div class="moreinfo" id="info2">
 							banderson@workaholic.co
@@ -565,7 +565,7 @@
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							25 logins
+							85 logins
 						</div>
 						<div class="moreinfo" id="info2">
 							jpotter@workaholic.co
@@ -591,7 +591,7 @@
 						<h4 class="loggedout">CLOCKED OUT</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							2 logins
+							1 login
 						</div>
 						<div class="moreinfo" id="info2">
 							mhuliganga@workaholic.co
