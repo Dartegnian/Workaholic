@@ -169,7 +169,7 @@
 							jpineda@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
-							69,000 total points
+							1,337 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">
@@ -212,7 +212,7 @@
 						<h6 style="background-image: url(assets/images/employees/ashley.jpg);"></h6>
 						<h5>Ashley Hwang</h5>
 						<p>Foreign Affairs Representative</p>
-						<h4 class="loggedout">CLOCKED OUT</h3>
+						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
 							9 logins
@@ -368,7 +368,7 @@
 						<h6 style="background-image: url(assets/images/employees/Samantha.jpg);"></h6>
 						<h5>Samantha Sy</h5>
 						<p>Human Resources</p>
-						<h4 class="loggedout">CLOCKED OUT</h3>
+						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
 							9 logins

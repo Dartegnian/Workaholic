@@ -45,7 +45,7 @@ input.inputfield, input.button, button.userbutt, button.contactbutt {
     background-color: rgba(100, 100, 100, 0.3);
     color: white;
     padding: 10px;
-    font-family: Segoe UI Light;
+    font-family: "Segoe UI Light";
     transition: all .50s;
 }
 input.button:hover, button.userbutt:hover, button.contactbutt:hover {
@@ -57,7 +57,7 @@ button.contactbutt {
     text-transform: uppercase;
 }
 form td {
-    font-family: Segoe UI Light;
+    font-family: "Segoe UI Light";
 }
 #headnav a {
     cursor: pointer;
@@ -95,7 +95,7 @@ h2 {
     color: #0076ff;
 }
 p {
-    font-family: Segoe UI Light;
+    font-family: "Segoe UI Light";
     margin: 0;
 }
 #infospace {
@@ -272,7 +272,7 @@ footer img {
 #footstuff a {
     color: white;
     font-size: 13px;
-    font-family: Segoe UI Light;
+    font-family: "Segoe UI Light";
 }
 #footstuff ul {
     padding-left: 0;
@@ -301,7 +301,7 @@ footer img {
     background-attachment: fixed;
     height: 20px;
 	color: white;
-	font-family: 'Segoe UI Light', Arial, Helvetica, sans-serif;
+	font-family: "Segoe UI Light", Arial, Helvetica, sans-serif;
 	letter-spacing: 0.6px;
     text-transform: uppercase;
 }
@@ -409,7 +409,7 @@ div#formcontainer {
     font-size: 25px;
 }
 #content td {
-    font-family: Segoe UI Light;
+    font-family: "Segoe UI Light";
     background-color: black;
     color: white;
     padding: 10px;
@@ -424,10 +424,11 @@ div#formcontainer {
     padding-left: 40px;
     margin-top: -20px;
     color: #333;
-    font-family: Segoe UI Light;
+    font-family: "Segoe UI Light";
     font-weight: 100;
 	font-size: 44px;
 	margin-bottom: 15px;
+	cursor: default;
 }
 nav#empnav {
 	padding-left: 40px;
@@ -437,7 +438,8 @@ nav#empnav {
 #empnav a {
 	padding-right: 20px;
 	font-size: 20px;
-	font-family: Segoe UI Light;
+	font-family: "Segoe UI Light";
+	cursor: pointer;
 }
 #empnav #active {
 	color: #333;
@@ -530,7 +532,7 @@ h4.loggedout {
     padding: 10px;
     padding-left: 35px;
     text-align: left;
-    font-family: Segoe UI Light;
+    font-family: "Segoe UI Light";
     font-size: 13px;
     width: 60%;
     margin: 0 auto;
@@ -550,12 +552,22 @@ h4.loggedout {
     padding-left: 10px;
     text-align: center;
     background-color: rgba(2, 214, 2, 0.5);
+	text-transform: uppercase;
+	transition: all .50s;
+}
+#fltlft:hover {
+    background-color: rgba(2, 214, 2, 0.65);
 }
 #fltrght {
     float: right;
     padding-left: 10px;
     text-align: center;
-    background-color: rgba(240, 51, 57, 0.5);
+	background-color: rgba(240, 51, 57, 0.5);
+	text-transform: uppercase;
+	transition: all .50s;
+}
+#fltrght:hover {
+	background-color: rgba(240, 51, 57, 0.65);
 }
 .floatcontain {
     width: 74%;
