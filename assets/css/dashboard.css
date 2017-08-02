@@ -430,9 +430,9 @@ div#formcontainer {
     font-size: 40px;
 }
 div#entrycontainer {
-        padding: 0px;
+    padding: 0px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: -45px;
     overflow: hidden;
 }
 div#entryfiller {
