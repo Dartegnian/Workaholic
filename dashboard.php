@@ -155,7 +155,7 @@
 							15 logins
 						</div>
 						<div class="moreinfo" id="info2">
-							pcalugas@workaholic.co
+							jpineda@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
 							69,000 total points
@@ -181,10 +181,10 @@
 							75 logins
 						</div>
 						<div class="moreinfo" id="info2">
-							minaambrocio@workaholic.co
+							rferrer@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
-							420,000 total points
+							2,000 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">
@@ -207,7 +207,7 @@
 							9 logins
 						</div>
 						<div class="moreinfo" id="info2">
-							jeadriano@workaholic.co
+							ahwang@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
 							4,000 total points
@@ -230,13 +230,13 @@
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							15 logins
+							24 logins
 						</div>
 						<div class="moreinfo" id="info2">
-							pcalugas@workaholic.co
+							jreyes@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
-							69,000 total points
+							25,000 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">
@@ -256,13 +256,13 @@
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							75 logins
+							15 logins
 						</div>
 						<div class="moreinfo" id="info2">
-							minaambrocio@workaholic.co
+							gparado@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
-							420,000 total points
+							40,000 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">
@@ -285,7 +285,7 @@
 							9 logins
 						</div>
 						<div class="moreinfo" id="info2">
-							jeadriano@workaholic.co
+							alu@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
 							4,000 total points
