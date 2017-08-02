@@ -384,13 +384,13 @@ div#formcontainer {
     color: #0076ff;
 }
 #partnerbutt {
-    background-image: url(../images/partnerup.png);
+    background-image: url(../images/mdl2/partnerup.png);
     padding-left: 45px;
     background-repeat: no-repeat;
     background-size: 38px;
 }
 #drivebutt {
-    background-image: url(../images/car.png);
+    background-image: url(../images/mdl2/car.png);
     padding-left: 45px;
     background-repeat: no-repeat;
     background-size: 38px;

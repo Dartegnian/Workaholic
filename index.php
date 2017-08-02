@@ -29,23 +29,26 @@
 				})
 			});
 			function popup() {
-    			alert("Invalid or empty credentials.");
+    			alert("Invalid or empty credentials.\nPlease type in your credentials and click the \"Log In\" button");
+			}
+			function redirect() {
+				window.location="dashboard.php";
 			}
 		</script>
 	</head>
 	<body>
 		<header>
 			<h1 style="display: inline;"> <img id="logo" src="assets\images\logowhite.png"/></h1>
-			<button style="display: inline-block;float: right; margin-left: -5px; margin-top: 4px; margin-right: 30px;" class="userbutt" onclick="Redirect()">Register</button>
+			<button style="display: inline-block;float: right; margin-left: -5px; margin-top: 4px; margin-right: 30px;" class="userbutt" onclick="redirect()">Register</button>
 			<form action="dashboard.php" method="post" style="display: inline;">
 				<table border="0" style="display: inline; float: right;">
 					<tr style="display: inline;">
 					<td style="color: #fff">Username</td>
-					<td align="left"><input class="inputfield" type="text" name="username" size="20" maxlength="50" style="background: url(assets/images/people.png); background-color: rgba(100, 100, 100, 0.3); background-size: 30px; padding-left: 35px; background-repeat: no-repeat;"></td>
+					<td align="left"><input class="inputfield" type="text" name="username" size="20" maxlength="50" style="background: url(assets/images/mdl2/people.png); background-color: rgba(100, 100, 100, 0.3); background-size: 30px; padding-left: 35px; background-repeat: no-repeat;"></td>
 					</tr>
 					<tr style="display: inline;">
 					<td style="color: #fff">Password</td>
-					<td align="left"><input class="inputfield" type="password" name="password" style="background: url(assets/images/lock.png); background-color: rgba(100, 100, 100, 0.3); background-size: 30px; padding-left: 35px; background-repeat: no-repeat;" size="20" maxlength="50" /></td>
+					<td align="left"><input class="inputfield" type="password" name="password" style="background: url(assets/images/mdl2/lock.png); background-color: rgba(100, 100, 100, 0.3); background-size: 30px; padding-left: 35px; background-repeat: no-repeat;" size="20" maxlength="50" /></td>
 					</tr>
 					<tr style="display: inline;">
 					<td style="border-right: 1px solid #e4e4e4; padding-right: 10px;" colspan="2" align="center"><input type="submit" value="Log In" class="button"/></td>
@@ -146,25 +149,25 @@
 				<div class="vertcontain">
 					<ul>
 						<li>
-							<img class="partnerimg" src="assets\images\partner1.jpg">
+							<img class="partnerimg" src="assets\images\partners\partner1.jpg">
 						</li>
 						<li>
-							<img class="partnerimg" src="assets\images\partner2.jpg">
+							<img class="partnerimg" src="assets\images\partners\partner2.jpg">
 						</li>
 						<li>
-							<img class="partnerimg" src="assets\images\partner3.jpg">
+							<img class="partnerimg" src="assets\images\partners\partner3.jpg">
 						</li>
 						<li>
-							<img class="partnerimg" src="assets\images\partner7.jpg">
+							<img class="partnerimg" src="assets\images\partners\partner7.jpg">
 						</li>
 						<li>
-							<img class="partnerimg" src="assets\images\partner4.jpg">
+							<img class="partnerimg" src="assets\images\partners\partner4.jpg">
 						</li>
 						<li>
-							<img class="partnerimg" src="assets\images\partner6.jpg">
+							<img class="partnerimg" src="assets\images\partners\partner6.jpg">
 						</li>
 						<li>
-							<img class="partnerimg" src="assets\images\partner5.jpg">
+							<img class="partnerimg" src="assets\images\partners\partner5.jpg">
 						</li>
 					</ul>
 				</div>
@@ -263,10 +266,10 @@
 				<form action="signingin.php" method="post" style="display: inline;">
 					<table border="0" style="display: inline; margin: 0 auto">
 						<tr style="display: inline;">
-						<td align="left"><input class="inputfield" type="text" name="username" size="20" placeholder="Company name" style="background-image: url(assets/images/city.png);" maxlength="50"></td>
+						<td align="left"><input class="inputfield" type="text" name="username" size="20" placeholder="Company name" style="background-image: url(assets/images/mdl2/city.png);" maxlength="50"></td>
 						</tr>
 						<tr style="display: inline;">
-						<td align="left"><input class="inputfield" type="text" name="password" style="background-image: url(assets/images/mail.png);" placeholder="Contact email" size="20" maxlength="50" /></td>
+						<td align="left"><input class="inputfield" type="text" name="password" style="background-image: url(assets/images/mdl2/mail.png);" placeholder="Contact email" size="20" maxlength="50" /></td>
 						</tr>
 						<tr style="display: inline;">
 						<td colspan="2" align="center"><input type="submit" value="Get Quote" class="button"/></td>
