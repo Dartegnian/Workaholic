@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" type="image/png" href="assets/images/logosmallsquare.png">
 		<!-- CSS -->
-		<link href="assets/css/styles-dark.css" rel="stylesheet"> <!-- Dark theme -->
+		<link href="assets/css/dashboard.css" rel="stylesheet"> <!-- Dark theme -->
 		<link rel="stylesheet" type="text/css" href="assets/css/textrotator.css"/>
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 		<!-- Scripts -->
@@ -46,7 +46,7 @@
 					$username = $_POST['username'];
 					echo $username;
 					?>"
-				size="20" maxlength="50" style="background: url(assets/images/people.png); background-color: rgba(100, 100, 100, 0.3); background-size: 30px; padding-left: 35px; background-repeat: no-repeat;"></td>
+				size="20" maxlength="50" style="background: url(assets/images/mdl2/people.png); background-color: rgba(100, 100, 100, 0.3); background-size: 30px; padding-left: 35px; background-repeat: no-repeat;"></td>
 					</tr>
 					<tr style="display: inline;">
 					<td colspan="2" align="center">
@@ -66,10 +66,10 @@
 		<section id="content">
 			<h1>All employees</h1>
 			<div id="entrycontainer">
-				<div id="entryfiller" style="float: left; background-image: url(assets/images/pat.jpg);">
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/pat.jpg);">
 					<div id="entry">
-						<h6 style="background-image: url(assets/images/pat.jpg);"></h6>
-						<h5>Patrcia Calugas</h5>
+						<h6 style="background-image: url(assets/images/employees/pat.jpg);"></h6>
+						<h5>Patricia Calugas</h5>
 						<p>Chief Operating Officer</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
@@ -92,9 +92,9 @@
 						</div>
 					</div>
 				</div>
-				<div id="entryfiller" style="float: right; background-image: url(assets/images/mina.jpg);">
+				<div id="entryfiller" style="float: right; background-image: url(assets/images/employees/mina.jpg);">
 					<div id="entry">
-						<h6 style="background-image: url(assets/images/mina.jpg);"></h6>
+						<h6 style="background-image: url(assets/images/employees/mina.jpg);"></h6>
 						<h5>Carmina Ambrocio</h5>
 						<p>Chief Executive Officer</p>
 						<h4 class="loggedout">CLOCKED OUT</h3>
@@ -118,9 +118,9 @@
 						</div>
 					</div>
 				</div>
-				<div id="entryfiller" style="float: left; background-image: url(assets/images/jason.jpg);">
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/jason.jpg);">
 					<div id="entry">
-						<h6 style="background-image: url(assets/images/jason.jpg);"></h6>
+						<h6 style="background-image: url(assets/images/employees/jason.jpg);"></h6>
 						<h5>Jade Adriano</h5>
 						<p>Senior Developer</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
@@ -144,9 +144,9 @@
 						</div>
 					</div>
 				</div>
-				<div id="entryfiller" style="float: left; background-image: url(assets/images/pineda.jpg);">
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/pineda.jpg);">
 					<div id="entry">
-						<h6 style="background-image: url(assets/images/pineda.jpg);"></h6>
+						<h6 style="background-image: url(assets/images/employees/pineda.jpg);"></h6>
 						<h5>Justin Pineda</h5>
 						<p>Security Analyst</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
@@ -170,9 +170,9 @@
 						</div>
 					</div>
 				</div>
-				<div id="entryfiller" style="float: right; background-image: url(assets/images/reisha.jpg);">
+				<div id="entryfiller" style="float: right; background-image: url(assets/images/employees/reisha.jpg);">
 					<div id="entry">
-						<h6 style="background-image: url(assets/images/reisha.jpg);"></h6>
+						<h6 style="background-image: url(assets/images/employees/reisha.jpg);"></h6>
 						<h5>Reisha Ferrer</h5>
 						<p>Marketing Manager</p>
 						<h4 class="loggedout">CLOCKED OUT</h3>
@@ -196,9 +196,9 @@
 						</div>
 					</div>
 				</div>
-				<div id="entryfiller" style="float: left; background-image: url(assets/images/ashley.jpg);">
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/ashley.jpg);">
 					<div id="entry">
-						<h6 style="background-image: url(assets/images/ashley.jpg);"></h6>
+						<h6 style="background-image: url(assets/images/employees/ashley.jpg);"></h6>
 						<h5>Ashley Hwang</h5>
 						<p>Foreign Affairs Representative</p>
 						<h4 class="loggedout">CLOCKED OUT</h3>
@@ -222,9 +222,9 @@
 						</div>
 					</div>
 				</div>
-				<div id="entryfiller" style="float: left; background-image: url(assets/images/jennifer.jpg);">
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/jennifer.jpg);">
 					<div id="entry">
-						<h6 style="background-image: url(assets/images/jennifer.jpg);"></h6>
+						<h6 style="background-image: url(assets/images/employees/jennifer.jpg);"></h6>
 						<h5>Jennifer Reyes</h5>
 						<p>Assistant Marketing</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
@@ -248,9 +248,9 @@
 						</div>
 					</div>
 				</div>
-				<div id="entryfiller" style="float: right; background-image: url(assets/images/ding.jpg);">
+				<div id="entryfiller" style="float: right; background-image: url(assets/images/employees/ding.jpg);">
 					<div id="entry">
-						<h6 style="background-image: url(assets/images/ding.jpg);"></h6>
+						<h6 style="background-image: url(assets/images/employees/ding.jpg);"></h6>
 						<h5>Gertrude Parado</h5>
 						<p>Art Director</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
@@ -274,9 +274,9 @@
 						</div>
 					</div>
 				</div>
-				<div id="entryfiller" style="float: left; background-image: url(assets/images/tommy.jpg);">
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/tommy.jpg);">
 					<div id="entry">
-						<h6 style="background-image: url(assets/images/tommy.jpg);"></h6>
+						<h6 style="background-image: url(assets/images/employees/tommy.jpg);"></h6>
 						<h5>Antonio Lu</h5>
 						<p>Chinese Ambassador</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
@@ -300,9 +300,9 @@
 						</div>
 					</div>
 				</div>
-				<div id="entryfiller" style="float: left; background-image: url(assets/images/Calma.jpg);">
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/Olores.jpg);">
 					<div id="entry">
-						<h6 style="background-image: url(assets/images/Calma.jpg);"></h6>
+						<h6 style="background-image: url(assets/images/employees/Olores.jpg);"></h6>
 						<h5>Katelyn Calma</h5>
 						<p>R&D Manager</p>
 						<h4 class="loggedout">CLOCKED OUT</h3>
@@ -326,9 +326,9 @@
 						</div>
 					</div>
 				</div>
-				<div id="entryfiller" style="float: right; background-image: url(assets/images/Roguel.jpg);">
+				<div id="entryfiller" style="float: right; background-image: url(assets/images/employees/Roguel.jpg);">
 					<div id="entry">
-						<h6 style="background-image: url(assets/images/Roguel.jpg);"></h6>
+						<h6 style="background-image: url(assets/images/employees/Roguel.jpg);"></h6>
 						<h5>Kaila Pangilinan</h5>
 						<p>Fashion Designer</p>
 						<h4 class="loggedout">CLOCKED OUT</h3>
@@ -352,9 +352,9 @@
 						</div>
 					</div>
 				</div>
-				<div id="entryfiller" style="float: left; background-image: url(assets/images/Munar.jpg);">
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/Munar.jpg);">
 					<div id="entry">
-						<h6 style="background-image: url(assets/images/Munar.jpg);"></h6>
+						<h6 style="background-image: url(assets/images/employees/Munar.jpg);"></h6>
 						<h5>Samantha Sy</h5>
 						<p>Human Resources</p>
 						<h4 class="loggedout">CLOCKED OUT</h3>
@@ -367,6 +367,474 @@
 						</div>
 						<div class="moreinfo" id="info3">
 							4,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/Melad.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/employees/Melad.jpg);"></h6>
+						<h5>Patricia Calugas</h5>
+						<p>Chief Operating Officer</p>
+						<h4 class="loggedin">CLOCKED IN</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							15 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							pcalugas@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							690,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: right; background-image: url(assets/images/employees/Steph.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/employees/Steph.jpg);"></h6>
+						<h5>Carmina Ambrocio</h5>
+						<p>Chief Executive Officer</p>
+						<h4 class="loggedout">CLOCKED OUT</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							75 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							minaambrocio@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							420,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/Reyes.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/employees/Reyes.jpg);"></h6>
+						<h5>Jade Adriano</h5>
+						<p>Senior Developer</p>
+						<h4 class="loggedin">CLOCKED IN</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							9 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							jeadriano@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							550,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/Delfin.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/employees/Delfin.jpg);"></h6>
+						<h5>Patricia Calugas</h5>
+						<p>Chief Operating Officer</p>
+						<h4 class="loggedin">CLOCKED IN</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							15 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							pcalugas@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							690,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: right; background-image: url(assets/images/employees/Dette.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/employees/Dette.jpg);"></h6>
+						<h5>Carmina Ambrocio</h5>
+						<p>Chief Executive Officer</p>
+						<h4 class="loggedout">CLOCKED OUT</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							75 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							minaambrocio@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							420,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/Elaine.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/employees/Elaine.jpg);"></h6>
+						<h5>Jade Adriano</h5>
+						<p>Senior Developer</p>
+						<h4 class="loggedin">CLOCKED IN</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							9 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							jeadriano@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							550,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/Janine.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/employees/Janine.jpg);"></h6>
+						<h5>Patricia Calugas</h5>
+						<p>Chief Operating Officer</p>
+						<h4 class="loggedin">CLOCKED IN</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							15 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							pcalugas@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							690,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: right; background-image: url(assets/images/employees/Huliganga.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/employees/Huliganga.jpg);"></h6>
+						<h5>Carmina Ambrocio</h5>
+						<p>Chief Executive Officer</p>
+						<h4 class="loggedout">CLOCKED OUT</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							75 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							minaambrocio@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							420,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/Alodia.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/employees/Alodia.jpg);"></h6>
+						<h5>Jade Adriano</h5>
+						<p>Senior Developer</p>
+						<h4 class="loggedin">CLOCKED IN</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							9 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							jeadriano@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							550,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/Valguna.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/employees/Valguna.jpg);"></h6>
+						<h5>Patricia Calugas</h5>
+						<p>Chief Operating Officer</p>
+						<h4 class="loggedin">CLOCKED IN</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							15 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							pcalugas@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							690,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: right; background-image: url(assets/images/employees/Jessica.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/employees/Jessica.jpg);"></h6>
+						<h5>Carmina Ambrocio</h5>
+						<p>Chief Executive Officer</p>
+						<h4 class="loggedout">CLOCKED OUT</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							75 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							minaambrocio@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							420,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/Espinas.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/employees/Espinas.jpg);"></h6>
+						<h5>Jade Adriano</h5>
+						<p>Senior Developer</p>
+						<h4 class="loggedin">CLOCKED IN</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							9 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							jeadriano@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							550,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/Andrea.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/employees/Andrea.jpg);"></h6>
+						<h5>Patricia Calugas</h5>
+						<p>Chief Operating Officer</p>
+						<h4 class="loggedin">CLOCKED IN</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							15 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							pcalugas@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							690,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: right; background-image: url(assets/images/employees/Angel.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/employees/Angel.jpg);"></h6>
+						<h5>Carmina Ambrocio</h5>
+						<p>Chief Executive Officer</p>
+						<h4 class="loggedout">CLOCKED OUT</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							75 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							minaambrocio@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							420,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/Claveria.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/employees/Claveria.jpg);"></h6>
+						<h5>Jade Adriano</h5>
+						<p>Senior Developer</p>
+						<h4 class="loggedin">CLOCKED IN</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							9 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							jeadriano@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							550,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/Caguioa.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/employees/Caguioa.jpg);"></h6>
+						<h5>Patricia Calugas</h5>
+						<p>Chief Operating Officer</p>
+						<h4 class="loggedin">CLOCKED IN</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							15 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							pcalugas@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							690,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: right; background-image: url(assets/images/employees/Dimaranan.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/employees/Dimaranan.jpg);"></h6>
+						<h5>Carmina Ambrocio</h5>
+						<p>Chief Executive Officer</p>
+						<h4 class="loggedout">CLOCKED OUT</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							75 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							minaambrocio@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							420,000 total points
+						</div>
+						<div class="floatcontain">
+							<button class="moreinfo" id="fltlft">
+								Clock In
+							</button>
+							<button class="moreinfo" id="fltrght">
+								Clock Out
+							</button>
+						</div>
+					</div>
+				</div>
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/LK.jpg);">
+					<div id="entry">
+						<h6 style="background-image: url(assets/images/employees/LK.jpg);"></h6>
+						<h5>Jade Adriano</h5>
+						<p>Senior Developer</p>
+						<h4 class="loggedin">CLOCKED IN</h3>
+						<div id="perfcontainer"></div>
+						<div class="moreinfo" id="info1">
+							9 logins
+						</div>
+						<div class="moreinfo" id="info2">
+							jeadriano@workaholic.co
+						</div>
+						<div class="moreinfo" id="info3">
+							550,000 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">

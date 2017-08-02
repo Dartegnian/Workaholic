@@ -7,6 +7,7 @@
 		<link rel="icon" type="image/png" href="assets/images/logosmallsquare.png">
 		<!-- CSS -->
 		<link href="assets/css/styles-dark.css" rel="stylesheet"> <!-- Dark theme -->
+		<!-- <link href="assets/css/styles-light.css" rel="stylesheet"> Light theme -->
 		<link rel="stylesheet" type="text/css" href="assets/css/textrotator.css"/>
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 		<!-- Scripts -->

@@ -521,13 +521,13 @@ h4.loggedout {
     margin-bottom: 20px;
 }
 #info1 {
-    background-image: url(../images/point.png);
+    background-image: url(../images/mdl2/point.png);
 }
 #info2 {
-    background-image: url(../images/mail.png);
+    background-image: url(../images/mdl2/mail.png);
 }
 #info3 {
-    background-image: url(../images/cart.png);
+    background-image: url(../images/mdl2/cart.png);
 }
 #fltlft {
     float: left;

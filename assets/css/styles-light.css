@@ -33,7 +33,7 @@ a {
 }
 section#filler {
     height: 137px;
-    background-color: #000;
+    background-color: #fff;
 }
 input.inputfield, input.button, button.userbutt, button.contactbutt {
     outline: transparent;
@@ -133,18 +133,18 @@ p {
     background-size: cover;
     background-attachment: fixed;
 }
-#partnerimg {
+.partnerimg {
     box-shadow: 0 3px 6px rgba(0,0,0,0.36), 0 3px 6px rgba(0,0,0,0.43);
     transition: all .50s;
 }
-#partnerimg:hover {
+.partnerimg:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.45), 0 10px 10px rgba(0,0,0,0.42);
 }
 div#rightcontain {
     float: right;
     width: 38%;
     padding: 30px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(255, 255, 255, 0.6);
 	backdrop-filter: blur(10px);
 }
 #rightcontain p {
@@ -166,7 +166,7 @@ div#leftcontain {
     float: left;
     width: 40%;
     padding: 30px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(255, 255, 255, 0.6);
 	backdrop-filter: blur(10px);
 }
 #leftcontain p {
@@ -234,7 +234,7 @@ header {
     position: fixed;
     padding-top: 30px;
     padding-bottom: 20px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(255, 255, 255, 0.6);
 	backdrop-filter: blur(10px); /* chrome://flags/#enable-experimental-web-platform-features */
 }
 header img {
@@ -375,9 +375,9 @@ div#formcontainer {
 }
 .fa {
     color: white;
-    font-size: 50px !important;
-    padding-right: 20px;
-    padding-top: 20px;
+    font-size: 30px !important;
+    padding-right: 15px;
+    padding-top: 5px;
     transition: all .50s;
 }
 .fa:hover {
