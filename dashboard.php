@@ -97,7 +97,7 @@
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							15 clock ins
+							915 clock ins
 						</div>
 						<div class="moreinfo" id="info2">
 							pcalugas@workaholic.co
@@ -123,7 +123,7 @@
 						<h4 class="loggedout">CLOCKED OUT</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							75 clock ins
+							575 clock ins
 						</div>
 						<div class="moreinfo" id="info2">
 							minaambrocio@workaholic.co
@@ -149,7 +149,7 @@
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							9 clock ins
+							249 clock ins
 						</div>
 						<div class="moreinfo" id="info2">
 							jeadriano@workaholic.co
@@ -175,7 +175,7 @@
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							15 clock ins
+							135 clock ins
 						</div>
 						<div class="moreinfo" id="info2">
 							jpineda@workaholic.co
@@ -201,13 +201,13 @@
 						<h4 class="loggedout">CLOCKED OUT</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							75 clock ins
+							105 clock ins
 						</div>
 						<div class="moreinfo" id="info2">
 							rferrer@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
-							2,000 total points
+							92,100 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">
@@ -227,13 +227,13 @@
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							9 clock ins
+							209 clock ins
 						</div>
 						<div class="moreinfo" id="info2">
 							ahwang@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
-							4,000 total points
+							4,250 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">
@@ -253,13 +253,13 @@
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							24 clock ins
+							73 clock ins
 						</div>
 						<div class="moreinfo" id="info2">
 							jreyes@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
-							25,000 total points
+							46,540 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">
@@ -279,13 +279,13 @@
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							15 clock ins
+							45 clock ins
 						</div>
 						<div class="moreinfo" id="info2">
 							gparado@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
-							40,000 total points
+							14,240 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">
@@ -305,13 +305,13 @@
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							9 clock ins
+							74 clock ins
 						</div>
 						<div class="moreinfo" id="info2">
 							alu@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
-							4,000 total points
+							5,740 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">
