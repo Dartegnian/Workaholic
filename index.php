@@ -61,7 +61,7 @@
 			</form>
 			<nav id="headnav">
 				<a id="current">Home</a>
-				<a onclick="popup()">Dashboard</a>
+				<a onclick="redirect()">Dashboard</a>
 				<a href="products.php">Products</a>
 				<a href="pricing.php">Pricing</a>
 				<a onclick="popup()">Blog</a>
