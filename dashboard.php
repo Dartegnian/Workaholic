@@ -382,11 +382,11 @@
 					<div id="entry">
 						<h6 style="background-image: url(assets/images/employees/Melad.jpg);"></h6>
 						<h5>Kawasaki Melad</h5>
-						<p>Chief Operating Officer</p>
+						<p>Japanese Branch Manager</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							85 logins
+							25 logins
 						</div>
 						<div class="moreinfo" id="info2">
 							kmelad@workaholic.co
@@ -408,17 +408,17 @@
 					<div id="entry">
 						<h6 style="background-image: url(assets/images/employees/Steph.jpg);"></h6>
 						<h5>Stephanie Jung</h5>
-						<p>Chief Executive Officer</p>
+						<p>Nurse</p>
 						<h4 class="loggedout">CLOCKED OUT</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							24 logins
+							42 logins
 						</div>
 						<div class="moreinfo" id="info2">
 							sjung@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
-							80,500 total points
+							81,500 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">
@@ -434,17 +434,17 @@
 					<div id="entry">
 						<h6 style="background-image: url(assets/images/employees/Reyes.jpg);"></h6>
 						<h5>Shane Reyes</h5>
-						<p>Senior Developer</p>
+						<p>Editorial Assitant</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							9 logins
+							92 logins
 						</div>
 						<div class="moreinfo" id="info2">
 							sreyes@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
-							50,500 total points
+							51,500 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">
@@ -460,7 +460,7 @@
 					<div id="entry">
 						<h6 style="background-image: url(assets/images/employees/Delfin.jpg);"></h6>
 						<h5>Christopher Delfin</h5>
-						<p>Chief Operating Officer</p>
+						<p>Videographer</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
