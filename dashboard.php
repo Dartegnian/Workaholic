@@ -745,18 +745,18 @@
 				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/Claveria.jpg);">
 					<div id="entry">
 						<h6 style="background-image: url(assets/images/employees/Claveria.jpg);"></h6>
-						<h5>Jade Adriano</h5>
-						<p>Senior Developer</p>
+						<h5>Happy Claveria</h5>
+						<p>Market Analyst</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							9 logins
+							32 logins
 						</div>
 						<div class="moreinfo" id="info2">
-							jeadriano@workaholic.co
+							hclaveria@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
-							550,000 total points
+							3,200 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">
@@ -771,18 +771,18 @@
 				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/Caguioa.jpg);">
 					<div id="entry">
 						<h6 style="background-image: url(assets/images/employees/Caguioa.jpg);"></h6>
-						<h5>Patricia Calugas</h5>
+						<h5>Alster Caguioa</h5>
 						<p>Chief Operating Officer</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							15 logins
+							55 logins
 						</div>
 						<div class="moreinfo" id="info2">
-							pcalugas@workaholic.co
+							acaguioa@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
-							690,000 total points
+							9,220 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">
