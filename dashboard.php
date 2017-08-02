@@ -459,18 +459,18 @@
 				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/Delfin.jpg);">
 					<div id="entry">
 						<h6 style="background-image: url(assets/images/employees/Delfin.jpg);"></h6>
-						<h5>Patricia Calugas</h5>
+						<h5>Christopher Delfin</h5>
 						<p>Chief Operating Officer</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							15 logins
+							25 logins
 						</div>
 						<div class="moreinfo" id="info2">
-							pcalugas@workaholic.co
+							cdelfin@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
-							690,000 total points
+							94,200 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">
