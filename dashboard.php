@@ -418,7 +418,7 @@
 							sjung@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
-							80,000 total points
+							80,500 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">
@@ -433,7 +433,7 @@
 				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/Reyes.jpg);">
 					<div id="entry">
 						<h6 style="background-image: url(assets/images/employees/Reyes.jpg);"></h6>
-						<h5>Jade Adriano</h5>
+						<h5>Shane Reyes</h5>
 						<p>Senior Developer</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
@@ -441,10 +441,10 @@
 							9 logins
 						</div>
 						<div class="moreinfo" id="info2">
-							jeadriano@workaholic.co
+							sreyes@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
-							550,000 total points
+							50,500 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">
