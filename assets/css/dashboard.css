@@ -427,12 +427,12 @@ div#formcontainer {
     font-family: Segoe UI Light;
     font-weight: 100;
 	font-size: 44px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 nav#empnav {
 	padding-left: 40px;
 	padding-bottom: 10px;
-	margin-bottom: 33px; /* wew */
+	margin-bottom: 60px;
 }
 #empnav a {
 	padding-right: 20px;
@@ -446,13 +446,13 @@ nav#empnav {
 	color: #888;
 }
 div#entrycontainer {
-    padding: 0px;
+    padding: 0px 30px;
     text-align: center;
     margin-bottom: -45px;
     overflow: hidden;
 }
 div#entryfiller {
-    width: 27.4%;
+    width: 27.1%;
     height: 525px;
     background-color: #111;
     margin: 0px 40px;
@@ -460,7 +460,7 @@ div#entryfiller {
     background-position: center;
     transition: all .50s;
     background-size: cover;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 div#entry {
     background: rgba(0, 0, 0, 0.6);

@@ -56,9 +56,9 @@
 			</form>
 			<nav id="headnav">
 				<a id="current" style="border-right: 1px solid #e4e4e4;">Dashboard</a>
-				<a id="current" href="link2.html" style="padding-left: 25px;">Summary</a>
+				<a id="current" href="link2.html" style="padding-left: 25px;">Employees</a>
 				<a href="leaderboard.php">Leaderboard</a>
-				<a href="prizes.php">Available Prizes</a>
+				<a href="prizes.php">Rewards</a>
 			</nav>
 		</header>
 		<section id="filler">
@@ -66,12 +66,15 @@
 		<section id="content">
 			<h1>Employees</h1>
 			<nav id="empnav">
-				<a id="active" href="leaderboard.php">All</a>
-				<a class="others" href="leaderboard.php">Executives</a>
-				<a class="others" href="prizes.php">Board of Directors</a>
-				<a class="others" href="prizes.php">IT</a>
-				<a class="others" href="prizes.php">Marketing</a>
-				<a class="others" href="prizes.php">Sanitation</a>
+				<a id="active">All</a>
+				<a class="others">Executives</a>
+				<a class="others">Board of Directors</a>
+				<a class="others">IT</a>
+				<a class="others">Marketing</a>
+				<a class="others">Business</a>
+				<a class="others">Multimedia</a>
+				<a class="others">Sanitation</a>
+				<a class="others">Other Branches</a>
 			</nav>
 			<div id="entrycontainer">
 				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/pat.jpg);">
