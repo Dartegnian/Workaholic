@@ -3,3 +3,6 @@
 </p>
 
 Workaholic is a suite of software that helps your employees get to work on time in a convenient and safe way.
+
+#Note
+This site is best viewed on a 1366x768 screen and works best with Google Chrome 59. An experimental flag is also **recommended** chrome://flags/#enable-experimental-web-platform-features.
