@@ -797,18 +797,18 @@
 				<div id="entryfiller" style="float: right; background-image: url(assets/images/employees/Dimaranan.jpg);">
 					<div id="entry">
 						<h6 style="background-image: url(assets/images/employees/Dimaranan.jpg);"></h6>
-						<h5>Carmina Ambrocio</h5>
+						<h5>Chang Dimaranan</h5>
 						<p>Chief Executive Officer</p>
 						<h4 class="loggedout">CLOCKED OUT</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							75 logins
+							87 logins
 						</div>
 						<div class="moreinfo" id="info2">
-							minaambrocio@workaholic.co
+							cdimaranan@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
-							420,000 total points
+							4,100 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">
@@ -823,18 +823,18 @@
 				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/LK.jpg);">
 					<div id="entry">
 						<h6 style="background-image: url(assets/images/employees/LK.jpg);"></h6>
-						<h5>Jade Adriano</h5>
-						<p>Senior Developer</p>
+						<h5>Lynoelle Kristina Mae</h5>
+						<p>Website Designer</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
 						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							9 logins
+							42 logins
 						</div>
 						<div class="moreinfo" id="info2">
-							jeadriano@workaholic.co
+							lkmae@workaholic.co
 						</div>
 						<div class="moreinfo" id="info3">
-							550,000 total points
+							40,820 total points
 						</div>
 						<div class="floatcontain">
 							<button class="moreinfo" id="fltlft">
