@@ -352,9 +352,9 @@
 						</div>
 					</div>
 				</div>
-				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/Munar.jpg);">
+				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/Samantha.jpg);">
 					<div id="entry">
-						<h6 style="background-image: url(assets/images/employees/Munar.jpg);"></h6>
+						<h6 style="background-image: url(assets/images/employees/Samantha.jpg);"></h6>
 						<h5>Samantha Sy</h5>
 						<p>Human Resources</p>
 						<h4 class="loggedout">CLOCKED OUT</h3>
