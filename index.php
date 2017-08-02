@@ -56,7 +56,7 @@
 					</tr>
 				</table>
 			</form>
-			<nav>
+			<nav id="headnav">
 				<a id="current">Home</a>
 				<a onclick="popup()">Dashboard</a>
 				<a href="products.php">Products</a>

@@ -54,7 +54,7 @@
 					</tr>
 				</table>
 			</form>
-			<nav>
+			<nav id="headnav">
 				<a id="current" style="border-right: 1px solid #e4e4e4;">Dashboard</a>
 				<a id="current" href="link2.html" style="padding-left: 25px;">Summary</a>
 				<a href="leaderboard.php">Leaderboard</a>
@@ -64,7 +64,15 @@
 		<section id="filler">
 		</section>
 		<section id="content">
-			<h1>All employees</h1>
+			<h1>Employees</h1>
+			<nav id="empnav">
+				<a id="active" href="leaderboard.php">All</a>
+				<a class="others" href="leaderboard.php">Executives</a>
+				<a class="others" href="prizes.php">Board of Directors</a>
+				<a class="others" href="prizes.php">IT</a>
+				<a class="others" href="prizes.php">Marketing</a>
+				<a class="others" href="prizes.php">Sanitation</a>
+			</nav>
 			<div id="entrycontainer">
 				<div id="entryfiller" style="float: left; background-image: url(assets/images/employees/pat.jpg);">
 					<div id="entry">

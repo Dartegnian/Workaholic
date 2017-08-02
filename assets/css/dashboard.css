@@ -59,7 +59,7 @@ button.contactbutt {
 form td {
     font-family: Segoe UI Light;
 }
-nav a {
+#headnav a {
     cursor: pointer;
     transition: all .50s;
     color: white;
@@ -70,13 +70,13 @@ nav a {
     text-align: left;
     font-size: 20px;
 }
-nav {
+#headnav {
     padding-left: 30px;
 }
-nav a:hover {
+#headnav a:hover {
     color: #0099ff;
 }
-nav #current {
+#headnav #current {
     color: #0076ff;
 }
 section#content {
@@ -424,10 +424,26 @@ div#formcontainer {
     padding-left: 40px;
     margin-top: -20px;
     color: #333;
-    padding-bottom: 10px;
     font-family: Segoe UI Light;
     font-weight: 100;
-    font-size: 40px;
+	font-size: 44px;
+	margin-bottom: 10px;
+}
+nav#empnav {
+	padding-left: 40px;
+	padding-bottom: 10px;
+	margin-bottom: 33px; /* wew */
+}
+#empnav a {
+	padding-right: 20px;
+	font-size: 20px;
+	font-family: Segoe UI Light;
+}
+#empnav #active {
+	color: #333;
+}
+#empnav .others {
+	color: #888;
 }
 div#entrycontainer {
     padding: 0px;
