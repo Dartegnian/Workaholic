@@ -133,11 +133,11 @@ p {
     background-size: cover;
     background-attachment: fixed;
 }
-#partnerimg {
+.partnerimg {
     box-shadow: 0 3px 6px rgba(0,0,0,0.36), 0 3px 6px rgba(0,0,0,0.43);
     transition: all .50s;
 }
-#partnerimg:hover {
+.partnerimg:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.45), 0 10px 10px rgba(0,0,0,0.42);
 }
 div#rightcontain {
@@ -375,9 +375,9 @@ div#formcontainer {
 }
 .fa {
     color: white;
-    font-size: 50px !important;
-    padding-right: 20px;
-    padding-top: 20px;
+    font-size: 30px !important;
+    padding-right: 15px;
+    padding-top: 5px;
     transition: all .50s;
 }
 .fa:hover {

@@ -58,7 +58,7 @@
 			<nav>
 				<a id="current">Home</a>
 				<a onclick="popup()">Dashboard</a>
-				<a href="pricing.php">Products</a>
+				<a href="products.php">Products</a>
 				<a href="pricing.php">Pricing</a>
 				<a onclick="popup()">Blog</a>
 				<a href="about.php">About</a>
@@ -103,7 +103,7 @@
 		<section id="content">
 			<div id="imagecontainer">
 				<div id="image1container" class="images">
-					<a href="project1.php" target='_blank'>
+					<a href="products.php" target='_blank'>
 						<img src="assets\images\devices.png"\>
 					</a>
 				</div>
@@ -117,13 +117,26 @@
 				<br/>
 				<div class="platform-icons cf">
 					<a id="apple" href="https://itunes.apple.com/ph/app/microsoft-excel/id586683407?mt=8" target="_blank">
-					<i class="fa fa-apple" aria-hidden="true"></i></a>
-					<a id="android" href="https://play.google.com/store/apps/details?id=com.microsoft.office.excel&hl=en" target="_blank"><i class="fa fa-android" aria-hidden="true"></i></a>
-					<a id="windows" href="https://www.microsoft.com/en-ph/store/p/excel-mobile/9wzdncrfjbh3" target="_blank"></a>
-					<a id="chrome" href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en" target="_blank"><i class="fa fa-chrome" aria-hidden="true"></i></a>
-					<a id="firefox" href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/" target="_blank"><i class="fa fa-firefox" aria-hidden="true"></i></i></a>
-					<a id="opera" href="https://addons.opera.com/en/extensions/details/ublock/?display=en" target="_blank"><i class="fa fa-opera" aria-hidden="true"></i></a>
-					<a id="edge" href="https://www.microsoft.com/en-us/store/p/ublock-origin/9nblggh444l4?wa=wsignin1.0" target="_blank"><i class="fa fa-edge" aria-hidden="true"></i></a>
+						<i class="fa fa-apple" aria-hidden="true"></i>
+					</a>
+					<a id="android" href="https://play.google.com/store/apps/details?id=com.microsoft.office.excel&hl=en" target="_blank">
+						<i class="fa fa-android" aria-hidden="true"></i>
+					</a>
+					<a id="windows" href="https://www.microsoft.com/en-ph/store/p/excel-mobile/9wzdncrfjbh3" target="_blank">
+						<i class="fa fa-windows" aria-hidden="true"></i>
+					</a>
+					<a id="chrome" href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en" target="_blank">
+						<i class="fa fa-chrome" aria-hidden="true"></i>
+					</a>
+					<a id="firefox" href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/" target="_blank">
+						<i class="fa fa-firefox" aria-hidden="true"></i></i>
+					</a>
+					<a id="opera" href="https://addons.opera.com/en/extensions/details/ublock/?display=en" target="_blank">
+						<i class="fa fa-opera" aria-hidden="true"></i>
+					</a>
+					<a id="edge" href="https://www.microsoft.com/en-us/store/p/ublock-origin/9nblggh444l4?wa=wsignin1.0" target="_blank">
+						<i class="fa fa-edge" aria-hidden="true"></i>
+					</a>
             	</div>
 			</aside>
 		</section>
@@ -132,25 +145,25 @@
 				<div class="vertcontain">
 					<ul>
 						<li>
-							<img id="partnerimg" src="assets\images\partner1.jpg">
+							<img class="partnerimg" src="assets\images\partner1.jpg">
 						</li>
 						<li>
-							<img id="partnerimg" src="assets\images\partner2.jpg">
+							<img class="partnerimg" src="assets\images\partner2.jpg">
 						</li>
 						<li>
-							<img id="partnerimg" src="assets\images\partner3.jpg">
+							<img class="partnerimg" src="assets\images\partner3.jpg">
 						</li>
 						<li>
-							<img id="partnerimg" src="assets\images\partner7.jpg">
+							<img class="partnerimg" src="assets\images\partner7.jpg">
 						</li>
 						<li>
-							<img id="partnerimg" src="assets\images\partner4.jpg">
+							<img class="partnerimg" src="assets\images\partner4.jpg">
 						</li>
 						<li>
-							<img id="partnerimg" src="assets\images\partner6.jpg">
+							<img class="partnerimg" src="assets\images\partner6.jpg">
 						</li>
 						<li>
-							<img id="partnerimg" src="assets\images\partner5.jpg">
+							<img class="partnerimg" src="assets\images\partner5.jpg">
 						</li>
 					</ul>
 				</div>
