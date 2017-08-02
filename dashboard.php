@@ -306,7 +306,7 @@
 						<h5>Brian Dolores</h5>
 						<p>R&D Manager</p>
 						<h4 class="loggedout">CLOCKED OUT</h3>
-						<div id="perfcontainer"></div>
+						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
 							35 logins
 						</div>
@@ -384,7 +384,7 @@
 						<h5>Kawasaki Melad</h5>
 						<p>Japanese Branch Manager</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
-						<div id="perfcontainer"></div>
+						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
 							25 logins
 						</div>
@@ -410,7 +410,7 @@
 						<h5>Stephanie Jung</h5>
 						<p>Nurse</p>
 						<h4 class="loggedout">CLOCKED OUT</h3>
-						<div id="perfcontainer"></div>
+						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
 							42 logins
 						</div>
@@ -436,7 +436,7 @@
 						<h5>Shane Reyes</h5>
 						<p>Editorial Assitant</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
-						<div id="perfcontainer"></div>
+						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
 							92 logins
 						</div>
@@ -462,7 +462,7 @@
 						<h5>Christopher Delfin</h5>
 						<p>Videographer</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
-						<div id="perfcontainer"></div>
+						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
 							25 logins
 						</div>
@@ -488,7 +488,7 @@
 						<h5>Bernadette Anderson</h5>
 						<p>Chief Editor</p>
 						<h4 class="loggedout">CLOCKED OUT</h3>
-						<div id="perfcontainer"></div>
+						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
 							45 logins
 						</div>
@@ -564,9 +564,9 @@
 					<div id="entry">
 						<h6 style="background-image: url(assets/images/employees/Huliganga.jpg);"></h6>
 						<h5>Mitsubishi Huliganga</h5>
-						<p>Chief Executive Officer</p>
+						<p>Japanese Branch Assistant</p>
 						<h4 class="loggedout">CLOCKED OUT</h3>
-						<div id="perfcontainer"></div>
+						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
 							2 logins
 						</div>
@@ -592,7 +592,7 @@
 						<h5>Alodia Gosiengfiao</h5>
 						<p>Model</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
-						<div id="perfcontainer"></div>
+						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
 							529 logins
 						</div>
@@ -618,7 +618,7 @@
 						<h5>Hervy Valguna</h5>
 						<p>Manager</p>
 						<h4 class="loggedout">CLOCKED OUT</h3>
-						<div id="perfcontainer"></div>
+						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
 							0 logins
 						</div>
@@ -668,11 +668,11 @@
 					<div id="entry">
 						<h6 style="background-image: url(assets/images/employees/Espinas.jpg);"></h6>
 						<h5>Maria Espinas</h5>
-						<p>Senior Developer</p>
+						<p>Assistant Designer</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
-						<div id="perfcontainer"></div>
+						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							14 logins
+							34 logins
 						</div>
 						<div class="moreinfo" id="info2">
 							mespinas@workaholic.co
@@ -694,11 +694,11 @@
 					<div id="entry">
 						<h6 style="background-image: url(assets/images/employees/Andrea.jpg);"></h6>
 						<h5>Andrea Hernandez</h5>
-						<p>Chief Operating Officer</p>
+						<p>Business Analyst</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
-						<div id="perfcontainer"></div>
+						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
-							52 logins
+							92 logins
 						</div>
 						<div class="moreinfo" id="info2">
 							ahernandez@workaholic.co
@@ -720,9 +720,9 @@
 					<div id="entry">
 						<h6 style="background-image: url(assets/images/employees/Angel.jpg);"></h6>
 						<h5>Angel Munar</h5>
-						<p>Chief Executive Officer</p>
+						<p>Website Developer</p>
 						<h4 class="loggedout">CLOCKED OUT</h3>
-						<div id="perfcontainer"></div>
+						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
 							63 logins
 						</div>
@@ -748,7 +748,7 @@
 						<h5>Happy Claveria</h5>
 						<p>Market Analyst</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
-						<div id="perfcontainer"></div>
+						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
 							32 logins
 						</div>
@@ -774,7 +774,7 @@
 						<h5>Alster Caguioa</h5>
 						<p>Multimedia Artist</p>
 						<h4 class="loggedin">CLOCKED IN</h3>
-						<div id="perfcontainer"></div>
+						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
 							55 logins
 						</div>
@@ -800,7 +800,7 @@
 						<h5>Chang Dimaranan</h5>
 						<p>Database Analyst</p>
 						<h4 class="loggedout">CLOCKED OUT</h3>
-						<div id="perfcontainer"></div>
+						<div id="perfcontainer"></div>
 						<div class="moreinfo" id="info1">
 							87 logins
 						</div>
