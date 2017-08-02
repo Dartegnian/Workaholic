@@ -84,7 +84,7 @@ section#content {
 }
 h2 {
     margin: 0;
-    font-family: Helvetica Neue;
+    font-family: "Helvetica Light", 'Segoe UI', Helvetica, Arial, sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
     font-size: 40px;
@@ -157,7 +157,7 @@ div#rightcontain {
     text-align: left;
     margin: 0px;
     padding-bottom: 10px;
-    font-family: Helvetica Neue;
+    font-family: "Helvetica Light", 'Segoe UI', Helvetica, Arial, sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
     font-size: 40px;
@@ -179,7 +179,7 @@ div#leftcontain {
     text-align: left;
     margin: 0px;
     padding-bottom: 10px;
-    font-family: Helvetica Neue;
+    font-family: "Helvetica Light", 'Segoe UI', Helvetica, Arial, sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
     font-size: 40px;
@@ -399,7 +399,7 @@ div#formcontainer {
     color: #0076ff;
     background-color: #111;
     padding: 10px;
-    font-family: Helvetica Neue;
+    font-family: "Helvetica Light", 'Segoe UI', Helvetica, Arial, sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
     font-size: 25px;
@@ -420,7 +420,7 @@ div#formcontainer {
     margin-top: 0;
     color: #0076ff;
     padding-bottom: 10px;
-    font-family: Helvetica Neue;
+    font-family: "Helvetica Light", 'Segoe UI', Helvetica, Arial, sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
     font-size: 40px;
