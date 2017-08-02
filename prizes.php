@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Workaholic Suite</title>
+		<title>Workaholic Prizes</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="assets/css/style.css" rel="stylesheet">
 		<link rel="icon" type="image/png" href="assets/images/logosmallsquare.png">
-		<script src='assets/js/jquery.min.js'></script>
-		<script src='assets/js/textrotator.js'></script>
+		<!-- CSS -->
+		<link href="assets/css/styles-dark.css" rel="stylesheet"> <!-- Dark theme -->
 		<link rel="stylesheet" type="text/css" href="assets/css/textrotator.css"/>
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<!-- Scripts -->
+		<script src='assets/js/jquery.min.js'></script>
+		<script src='assets/js/textrotator.js'></script>
 		<script>
 			$(document).ready(function(){
 				$(".header .rotate").textrotator({

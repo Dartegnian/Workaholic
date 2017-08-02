@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" type="image/png" href="assets/images/logosmallsquare.png">
 		<!-- CSS -->
-		<link href="assets/css/style.css" rel="stylesheet">
+		<link href="assets/css/styles-dark.css" rel="stylesheet"> <!-- Dark theme -->
 		<link rel="stylesheet" type="text/css" href="assets/css/textrotator.css"/>
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 		<!-- Scripts -->
@@ -58,9 +58,10 @@
 			<nav>
 				<a id="current">Home</a>
 				<a onclick="popup()">Dashboard</a>
-				<a href="link2.html">Mobile App</a>
-				<a href="link2.html">Browser Extension</a>
-				<a href="link2.html">About</a>
+				<a href="pricing.php">Products</a>
+				<a href="pricing.php">Pricing</a>
+				<a onclick="popup()">Blog</a>
+				<a href="about.php">About</a>
 			</nav>
 		</header>
 		<section id="filler">
@@ -71,13 +72,11 @@
 		<section id="content">
 			<div id="imagecontainer">
 				<div id="image1container" class="images">
-					<a href="project1.php" target='_blank'>
-						<img src="assets\images\wewlad1.jpeg"\>
-					</a>
+					<img src="assets\images\wewlad1.jpeg"\>
 				</div>
 			</div>
 			<aside id="infospace">
-				<h2>What's Workaholic?</h2>
+				<h2>What Is Workaholic?</h2>
 				<p class="firsttwo">Workaholic is a suite of tools that can help ease your employees commute to your workplace. Designed by a team from the Philippines, and hailing from Asia Pacific College, Workaholic is the best and the most sure-fire way to get your employees to work on time, prepared, and all set.</p>
 				<br/>
 				<h2>Mission</h2>
