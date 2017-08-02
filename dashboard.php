@@ -27,13 +27,21 @@
 					return false
 				})
 			});
-			function popup() { // Declare a function
+			function popup() {
     			alert("Invalid or empty credentials.");
 			}
 			function Logout() {
 				window.location="index.php";
 			}
+			function DemoAlert() {
+				alert("No login credentials entered.\nYou are currently using a demo view.");
+			}
 		</script>
+		<?php
+			if(empty($_POST['username'])) {
+				echo '<script type="text/javascript">', 'DemoAlert();', '</script>';
+			}
+		?>
 	</head>
 	<body>
 		<header>
@@ -43,8 +51,12 @@
 				<table border="0" style="display: inline; float: right;">
 					<tr style="display: inline;">
 					<td align="left"><input class="inputfield" type="text" readonly="yes" name="username" value="<?php
-					$username = $_POST['username'];
-					echo $username;
+					if(!empty($_POST['username'])) {
+						$username = $_POST['username'];
+						echo $username;
+					} else {
+						echo "Demo Admin";
+					}
 					?>"
 				size="20" maxlength="50" style="background: url(assets/images/mdl2/people.png); background-color: rgba(100, 100, 100, 0.3); background-size: 30px; padding-left: 35px; background-repeat: no-repeat;"></td>
 					</tr>
@@ -56,7 +68,7 @@
 			</form>
 			<nav id="headnav">
 				<a id="current" style="border-right: 1px solid #e4e4e4;">Dashboard</a>
-				<a id="current" href="link2.html" style="padding-left: 25px;">Employees</a>
+				<a id="current" style="padding-left: 25px;">Employees</a>
 				<a href="leaderboard.php">Leaderboard</a>
 				<a href="prizes.php">Rewards</a>
 			</nav>
