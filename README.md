@@ -6,3 +6,5 @@ Workaholic is a suite of software that helps your employees get to work on time 
 
 ## Note
 This site is best viewed on a 1366x768 screen and works best with Google Chrome 59. I recommend running the latest version of Windows 10, or at lest running Windows 10 version 1703. An experimental flag is also **recommended** to better view this site: **chrome://flags/#enable-experimental-web-platform-features**.
+
+There is a companion Android app, but I currently do not have access to the source code, and the source code may have already been deleted. Either way, I don't have it, so, sorry.
