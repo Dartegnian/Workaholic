@@ -1,6 +1,9 @@
 <p align="center">
 	<img src="https://4.bp.blogspot.com/-Tz8LTIr6pvA/WX3LYA1i64I/AAAAAAAAA98/JtYOm3_xOIcZiIuroHQMXk3azafoKwHLQCLcBGAs/s500/workaholicblue.png" alt="Workaholic" title="Workaholic logo"/>
 </p>
+<p align="center">
+	<img src="https://2.bp.blogspot.com/-9F66hyNqgDo/Wnn-7x7O_QI/AAAAAAAACQI/v-kHY_8BD8k_fXttA7IFrVfpTTXMb3EDgCLcBGAs/s0/workaholic.jpg" alt="Workaholic web preview" title="The Workaholic website"/>
+</p>
 
 Workaholic is a suite of software that helps your employees get to work on time in a convenient and safe way. Developed during the TANDA Manila 2017 Hackathon, this project is supposed to integrate to TANDA's already existing system for attendance.
 
